@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.title = @"设置";
+    self.title = NSLocalizedString(@"Setting.title.set", nil);
     _dataArray = [[NSMutableArray alloc] initWithObjects:@"niaho",@"nibuhao",nil];
     
 }

@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  JRentalManager
+
+  Created by Jone on 15/4/26.
+  Copyright (c) 2015年 Jone. All rights reserved.
+*/
+
+
+//show
+"Show.title.show" = "Showing";
+
+//setting
+"Setting.title.set" = "Setting";
+
+

@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.title = @"显示";
+    self.title = NSLocalizedString(@"Show.title.show", nil);
     
     
 }

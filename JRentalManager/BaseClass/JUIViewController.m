@@ -24,7 +24,7 @@
 
 - (void) setLeftBaritem:(JUIViewController *) idClass
 {
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"list"] style:UIBarButtonItemStylePlain target:idClass action:@selector(showMenu)];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"burger"] style:UIBarButtonItemStylePlain target:idClass action:@selector(showMenu)];
 }
 
 #pragma mark - Rewrite setTitle for custom tabbar

@@ -11,7 +11,6 @@
 		FE0F50F61AC8EEDE00938D18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0F50F51AC8EEDE00938D18 /* main.m */; };
 		FE0F50F91AC8EEDE00938D18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0F50F81AC8EEDE00938D18 /* AppDelegate.m */; };
 		FE0F50FB1AC8EEDE00938D18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0F50FA1AC8EEDE00938D18 /* Images.xcassets */; };
-		FE0F50FE1AC8EEDE00938D18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE0F50FC1AC8EEDE00938D18 /* LaunchScreen.xib */; };
 		FE0F510A1AC8EEDE00938D18 /* JRentalManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0F51091AC8EEDE00938D18 /* JRentalManagerTests.m */; };
 		FE0F51171AC8F9B700938D18 /* JUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0F51161AC8F9B700938D18 /* JUIViewController.m */; };
 		FE24A3651ACB838E00A79647 /* JRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE24A3641ACB838E00A79647 /* JRootViewController.m */; };
@@ -24,10 +23,6 @@
 		FE3680E21ACC391300292A67 /* Icon-Spotlight-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3680DE1ACC391300292A67 /* Icon-Spotlight-iOS7@2x.png */; };
 		FE6AFF0E1AE3984800058535 /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6AFF0C1AE3984800058535 /* launchImage.png */; };
 		FE6AFF0F1AE3984800058535 /* launchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6AFF0D1AE3984800058535 /* launchImage@2x.png */; };
-		FEC028471AD268AB0093CCD7 /* list_light.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC028431AD268AB0093CCD7 /* list_light.png */; };
-		FEC028481AD268AB0093CCD7 /* list_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC028441AD268AB0093CCD7 /* list_light@2x.png */; };
-		FEC028491AD268AB0093CCD7 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC028451AD268AB0093CCD7 /* list.png */; };
-		FEC0284A1AD268AB0093CCD7 /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEC028461AD268AB0093CCD7 /* list@2x.png */; };
 		FEC028501AD376330093CCD7 /* JShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0284E1AD376330093CCD7 /* JShowViewController.m */; };
 		FEC028511AD376330093CCD7 /* JShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC0284F1AD376330093CCD7 /* JShowViewController.xib */; };
 		FEC028551AD3764E0093CCD7 /* JSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC028531AD3764E0093CCD7 /* JSettingViewController.m */; };
@@ -35,6 +30,12 @@
 		FEC028601AD396350093CCD7 /* RNFrostedSidebar.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0285F1AD396350093CCD7 /* RNFrostedSidebar.m */; };
 		FEC0286A1AD4BC2D0093CCD7 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEC028681AD4BC2D0093CCD7 /* DataModel.xcdatamodeld */; };
 		FEC028701AD4BEB60093CCD7 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0286F1AD4BEB60093CCD7 /* Room.m */; };
+		FEEAC9741AEC9D7900BB356E /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEAC9701AEC9D7900BB356E /* burger.png */; };
+		FEEAC9751AEC9D7900BB356E /* burger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEAC9711AEC9D7900BB356E /* burger@2x.png */; };
+		FEEAC9761AEC9D7900BB356E /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEAC9721AEC9D7900BB356E /* set.png */; };
+		FEEAC9771AEC9D7900BB356E /* set@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEAC9731AEC9D7900BB356E /* set@2x.png */; };
+		FEEAC97A1AEC9F8C00BB356E /* JCoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEAC9791AEC9F8C00BB356E /* JCoredataManager.m */; };
+		FEEAC98B1AECA72800BB356E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEEAC98D1AECA72800BB356E /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +58,6 @@
 		FE0F50F71AC8EEDE00938D18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE0F50F81AC8EEDE00938D18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FE0F50FA1AC8EEDE00938D18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FE0F50FD1AC8EEDE00938D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FE0F51031AC8EEDE00938D18 /* JRentalManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRentalManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0F51081AC8EEDE00938D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE0F51091AC8EEDE00938D18 /* JRentalManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRentalManagerTests.m; sourceTree = "<group>"; };
@@ -75,10 +75,6 @@
 		FE3680DE1ACC391300292A67 /* Icon-Spotlight-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-iOS7@2x.png"; sourceTree = "<group>"; };
 		FE6AFF0C1AE3984800058535 /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
 		FE6AFF0D1AE3984800058535 /* launchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchImage@2x.png"; sourceTree = "<group>"; };
-		FEC028431AD268AB0093CCD7 /* list_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_light.png; sourceTree = "<group>"; };
-		FEC028441AD268AB0093CCD7 /* list_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_light@2x.png"; sourceTree = "<group>"; };
-		FEC028451AD268AB0093CCD7 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
-		FEC028461AD268AB0093CCD7 /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
 		FEC0284D1AD376330093CCD7 /* JShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JShowViewController.h; sourceTree = "<group>"; };
 		FEC0284E1AD376330093CCD7 /* JShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JShowViewController.m; sourceTree = "<group>"; };
 		FEC0284F1AD376330093CCD7 /* JShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JShowViewController.xib; sourceTree = "<group>"; };
@@ -90,6 +86,14 @@
 		FEC028691AD4BC2D0093CCD7 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		FEC0286E1AD4BEB60093CCD7 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
 		FEC0286F1AD4BEB60093CCD7 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		FEEAC9701AEC9D7900BB356E /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger.png; sourceTree = "<group>"; };
+		FEEAC9711AEC9D7900BB356E /* burger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "burger@2x.png"; sourceTree = "<group>"; };
+		FEEAC9721AEC9D7900BB356E /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set.png; sourceTree = "<group>"; };
+		FEEAC9731AEC9D7900BB356E /* set@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "set@2x.png"; sourceTree = "<group>"; };
+		FEEAC9781AEC9F8C00BB356E /* JCoredataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCoredataManager.h; sourceTree = "<group>"; };
+		FEEAC9791AEC9F8C00BB356E /* JCoredataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCoredataManager.m; sourceTree = "<group>"; };
+		FEEAC98F1AECA73900BB356E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FEEAC9901AECA74900BB356E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +163,6 @@
 				FEC028671AD4BBE30093CCD7 /* DataManager */,
 				FE3680C31ACC354900292A67 /* Image */,
 				FE0F50FA1AC8EEDE00938D18 /* Images.xcassets */,
-				FE0F50FC1AC8EEDE00938D18 /* LaunchScreen.xib */,
 				FE0F50F31AC8EEDE00938D18 /* Supporting Files */,
 			);
 			path = JRentalManager;
@@ -170,6 +173,7 @@
 			children = (
 				FE0F50F41AC8EEDE00938D18 /* Info.plist */,
 				FE0F50F51AC8EEDE00938D18 /* main.m */,
+				FEEAC98D1AECA72800BB356E /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -216,11 +220,11 @@
 		FE3680C31ACC354900292A67 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				FEEAC9701AEC9D7900BB356E /* burger.png */,
+				FEEAC9711AEC9D7900BB356E /* burger@2x.png */,
+				FEEAC9721AEC9D7900BB356E /* set.png */,
+				FEEAC9731AEC9D7900BB356E /* set@2x.png */,
 				FE6AFF0B1AE397A600058535 /* LaunchImage */,
-				FEC028431AD268AB0093CCD7 /* list_light.png */,
-				FEC028441AD268AB0093CCD7 /* list_light@2x.png */,
-				FEC028451AD268AB0093CCD7 /* list.png */,
-				FEC028461AD268AB0093CCD7 /* list@2x.png */,
 				FE3680C41ACC354900292A67 /* Icon */,
 			);
 			path = Image;
@@ -291,6 +295,8 @@
 				FEC028681AD4BC2D0093CCD7 /* DataModel.xcdatamodeld */,
 				FEC0286E1AD4BEB60093CCD7 /* Room.h */,
 				FEC0286F1AD4BEB60093CCD7 /* Room.m */,
+				FEEAC9781AEC9F8C00BB356E /* JCoredataManager.h */,
+				FEEAC9791AEC9F8C00BB356E /* JCoredataManager.m */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
@@ -360,6 +366,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = FE0F50E71AC8EEDD00938D18;
 			productRefGroup = FE0F50F11AC8EEDE00938D18 /* Products */;
@@ -377,22 +384,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEEAC9741AEC9D7900BB356E /* burger.png in Resources */,
 				FE6AFF0E1AE3984800058535 /* launchImage.png in Resources */,
-				FE0F50FE1AC8EEDE00938D18 /* LaunchScreen.xib in Resources */,
+				FEEAC9771AEC9D7900BB356E /* set@2x.png in Resources */,
+				FEEAC9761AEC9D7900BB356E /* set.png in Resources */,
+				FEEAC9751AEC9D7900BB356E /* burger@2x.png in Resources */,
 				FE0F50FB1AC8EEDE00938D18 /* Images.xcassets in Resources */,
 				FE3680E21ACC391300292A67 /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				FE3680DF1ACC391300292A67 /* Icon-76.png in Resources */,
-				FEC0284A1AD268AB0093CCD7 /* list@2x.png in Resources */,
 				FE3680DA1ACC382D00292A67 /* icon@3x.png in Resources */,
-				FEC028481AD268AB0093CCD7 /* list_light@2x.png in Resources */,
 				FE3680E01ACC391300292A67 /* Icon-76@2x.png in Resources */,
 				FE3680D21ACC37BF00292A67 /* icon@2x.png in Resources */,
 				FEC028511AD376330093CCD7 /* JShowViewController.xib in Resources */,
 				FE3680E11ACC391300292A67 /* Icon-Spotlight-iOS7.png in Resources */,
-				FEC028491AD268AB0093CCD7 /* list.png in Resources */,
+				FEEAC98B1AECA72800BB356E /* Localizable.strings in Resources */,
 				FE6AFF0F1AE3984800058535 /* launchImage@2x.png in Resources */,
 				FEC028561AD3764E0093CCD7 /* JSettingViewController.xib in Resources */,
-				FEC028471AD268AB0093CCD7 /* list_light.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +456,7 @@
 				FE3680C21ACBA88D00292A67 /* JNavigationController.m in Sources */,
 				FE0F50F61AC8EEDE00938D18 /* main.m in Sources */,
 				FEC028551AD3764E0093CCD7 /* JSettingViewController.m in Sources */,
+				FEEAC97A1AEC9F8C00BB356E /* JCoredataManager.m in Sources */,
 				FEC028501AD376330093CCD7 /* JShowViewController.m in Sources */,
 				FEC0286A1AD4BC2D0093CCD7 /* DataModel.xcdatamodeld in Sources */,
 				FEC028601AD396350093CCD7 /* RNFrostedSidebar.m in Sources */,
@@ -475,12 +483,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FE0F50FC1AC8EEDE00938D18 /* LaunchScreen.xib */ = {
+		FEEAC98D1AECA72800BB356E /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FE0F50FD1AC8EEDE00938D18 /* Base */,
+				FEEAC98F1AECA73900BB356E /* en */,
+				FEEAC9901AECA74900BB356E /* zh-Hans */,
 			);
-			name = LaunchScreen.xib;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

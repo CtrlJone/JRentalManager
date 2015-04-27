@@ -36,7 +36,7 @@
 #pragma mark - initSidebar
 - (void) initSidebar
 {
-    NSArray *images = @[[UIImage imageNamed:@"list"],[UIImage imageNamed:@"list"]];
+    NSArray *images = @[[UIImage imageNamed:@"burger"],[UIImage imageNamed:@"set"]];
     NSArray *colors = @[[UIColor pinkColor],[UIColor bananaColor]];
     
     _sidebar = [[RNFrostedSidebar alloc] initWithImages:images selectedIndices:[NSMutableIndexSet indexSetWithIndex:0] borderColors:colors];
