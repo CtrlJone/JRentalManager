@@ -15,8 +15,6 @@
 		FE0F51171AC8F9B700938D18 /* JUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0F51161AC8F9B700938D18 /* JUIViewController.m */; };
 		FE24A3651ACB838E00A79647 /* JRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE24A3641ACB838E00A79647 /* JRootViewController.m */; };
 		FE3680C21ACBA88D00292A67 /* JNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3680C11ACBA88D00292A67 /* JNavigationController.m */; };
-		FE6AFF0E1AE3984800058535 /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6AFF0C1AE3984800058535 /* launchImage.png */; };
-		FE6AFF0F1AE3984800058535 /* launchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6AFF0D1AE3984800058535 /* launchImage@2x.png */; };
 		FEC028501AD376330093CCD7 /* JShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0284E1AD376330093CCD7 /* JShowViewController.m */; };
 		FEC028511AD376330093CCD7 /* JShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC0284F1AD376330093CCD7 /* JShowViewController.xib */; };
 		FEC028551AD3764E0093CCD7 /* JSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC028531AD3764E0093CCD7 /* JSettingViewController.m */; };
@@ -57,8 +55,6 @@
 		FE24A3641ACB838E00A79647 /* JRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRootViewController.m; sourceTree = "<group>"; };
 		FE3680C01ACBA88D00292A67 /* JNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNavigationController.h; sourceTree = "<group>"; };
 		FE3680C11ACBA88D00292A67 /* JNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNavigationController.m; sourceTree = "<group>"; };
-		FE6AFF0C1AE3984800058535 /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
-		FE6AFF0D1AE3984800058535 /* launchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchImage@2x.png"; sourceTree = "<group>"; };
 		FEC0284D1AD376330093CCD7 /* JShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JShowViewController.h; sourceTree = "<group>"; };
 		FEC0284E1AD376330093CCD7 /* JShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JShowViewController.m; sourceTree = "<group>"; };
 		FEC0284F1AD376330093CCD7 /* JShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JShowViewController.xib; sourceTree = "<group>"; };
@@ -141,7 +137,6 @@
 				FE0F51181AC8FA4A00938D18 /* JViewClass */,
 				FEC028571AD395AA0093CCD7 /* Vendor */,
 				FEC028671AD4BBE30093CCD7 /* DataManager */,
-				FE3680C31ACC354900292A67 /* Image */,
 				FE0F50FA1AC8EEDE00938D18 /* Images.xcassets */,
 				FE0F50F31AC8EEDE00938D18 /* Supporting Files */,
 			);
@@ -197,14 +192,6 @@
 			path = JViewClass;
 			sourceTree = "<group>";
 		};
-		FE3680C31ACC354900292A67 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				FE6AFF0B1AE397A600058535 /* LaunchImage */,
-			);
-			path = Image;
-			sourceTree = "<group>";
-		};
 		FE67F2B71B007F9A006B6251 /* JShowCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,15 +204,6 @@
 			children = (
 			);
 			path = JSettingCell;
-			sourceTree = "<group>";
-		};
-		FE6AFF0B1AE397A600058535 /* LaunchImage */ = {
-			isa = PBXGroup;
-			children = (
-				FE6AFF0C1AE3984800058535 /* launchImage.png */,
-				FE6AFF0D1AE3984800058535 /* launchImage@2x.png */,
-			);
-			path = LaunchImage;
 			sourceTree = "<group>";
 		};
 		FEC0284B1AD376040093CCD7 /* Setting */ = {
@@ -362,11 +340,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE6AFF0E1AE3984800058535 /* launchImage.png in Resources */,
 				FE0F50FB1AC8EEDE00938D18 /* Images.xcassets in Resources */,
 				FEC028511AD376330093CCD7 /* JShowViewController.xib in Resources */,
 				FEEAC98B1AECA72800BB356E /* Localizable.strings in Resources */,
-				FE6AFF0F1AE3984800058535 /* launchImage@2x.png in Resources */,
 				FEC028561AD3764E0093CCD7 /* JSettingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
