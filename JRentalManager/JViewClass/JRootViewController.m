@@ -12,10 +12,12 @@
 
 #import "JShowViewController.h"
 #import "JSettingViewController.h"
+#import "JNavigationController.h"
 
 @interface JRootViewController ()<RNFrostedSidebarDelegate>
 {
     RNFrostedSidebar *_sidebar;
+    JNavigationController *_navi;
 }
 @property (nonatomic, strong) NSMutableIndexSet *indexSet;
 
@@ -24,9 +26,20 @@
 
 @implementation JRootViewController
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _navi = [[JNavigationController alloc] init];
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self.view addSubview:_navi.view];
     
     [self initSidebar];
     
@@ -55,10 +68,8 @@
     if (selIndex == 1) {
         centerVC = [[JSettingViewController alloc] init];
     }
-    [centerVC setLeftBaritem:self];
-    [self.navigationController popViewControllerAnimated:NO];
-    [self.navigationController pushViewController:centerVC animated:NO];
-//    [self.navigationController setViewControllers:@[self,centerVC] animated:NO];
+     [centerVC setLeftBaritem:self];
+    [_navi setViewControllers:@[centerVC] animated:NO];
 }
 
 - (void) showMenu

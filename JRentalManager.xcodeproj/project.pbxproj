@@ -205,6 +205,20 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		FE67F2B71B007F9A006B6251 /* JShowCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JShowCell;
+			sourceTree = "<group>";
+		};
+		FE67F2BB1B008309006B6251 /* JSettingCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSettingCell;
+			sourceTree = "<group>";
+		};
 		FE6AFF0B1AE397A600058535 /* LaunchImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +231,7 @@
 		FEC0284B1AD376040093CCD7 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				FE67F2BB1B008309006B6251 /* JSettingCell */,
 				FEC028521AD3764E0093CCD7 /* JSettingViewController.h */,
 				FEC028531AD3764E0093CCD7 /* JSettingViewController.m */,
 				FEC028541AD3764E0093CCD7 /* JSettingViewController.xib */,
@@ -227,6 +242,7 @@
 		FEC0284C1AD376040093CCD7 /* Showing */ = {
 			isa = PBXGroup;
 			children = (
+				FE67F2B71B007F9A006B6251 /* JShowCell */,
 				FEC0284D1AD376330093CCD7 /* JShowViewController.h */,
 				FEC0284E1AD376330093CCD7 /* JShowViewController.m */,
 				FEC0284F1AD376330093CCD7 /* JShowViewController.xib */,

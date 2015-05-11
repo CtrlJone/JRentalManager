@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "JRootViewController.h"
-#import "JNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -22,8 +21,7 @@
     // Override point for customization after application launch.
     
     JRootViewController *root = [[JRootViewController alloc] init];
-    JNavigationController *navi = [[JNavigationController alloc] initWithRootViewController:root];
-    self.window.rootViewController = navi;
+    self.window.rootViewController = root;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
