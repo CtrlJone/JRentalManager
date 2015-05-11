@@ -15,12 +15,6 @@
 		FE0F51171AC8F9B700938D18 /* JUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0F51161AC8F9B700938D18 /* JUIViewController.m */; };
 		FE24A3651ACB838E00A79647 /* JRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE24A3641ACB838E00A79647 /* JRootViewController.m */; };
 		FE3680C21ACBA88D00292A67 /* JNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3680C11ACBA88D00292A67 /* JNavigationController.m */; };
-		FE3680D21ACC37BF00292A67 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3680D01ACC37BF00292A67 /* icon@2x.png */; };
-		FE3680DA1ACC382D00292A67 /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3680D91ACC382D00292A67 /* icon@3x.png */; };
-		FE3680DF1ACC391300292A67 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3680DB1ACC391300292A67 /* Icon-76.png */; };
-		FE3680E01ACC391300292A67 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3680DC1ACC391300292A67 /* Icon-76@2x.png */; };
-		FE3680E11ACC391300292A67 /* Icon-Spotlight-iOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3680DD1ACC391300292A67 /* Icon-Spotlight-iOS7.png */; };
-		FE3680E21ACC391300292A67 /* Icon-Spotlight-iOS7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3680DE1ACC391300292A67 /* Icon-Spotlight-iOS7@2x.png */; };
 		FE6AFF0E1AE3984800058535 /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6AFF0C1AE3984800058535 /* launchImage.png */; };
 		FE6AFF0F1AE3984800058535 /* launchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6AFF0D1AE3984800058535 /* launchImage@2x.png */; };
 		FEC028501AD376330093CCD7 /* JShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0284E1AD376330093CCD7 /* JShowViewController.m */; };
@@ -30,10 +24,6 @@
 		FEC028601AD396350093CCD7 /* RNFrostedSidebar.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0285F1AD396350093CCD7 /* RNFrostedSidebar.m */; };
 		FEC0286A1AD4BC2D0093CCD7 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEC028681AD4BC2D0093CCD7 /* DataModel.xcdatamodeld */; };
 		FEC028701AD4BEB60093CCD7 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0286F1AD4BEB60093CCD7 /* Room.m */; };
-		FEEAC9741AEC9D7900BB356E /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEAC9701AEC9D7900BB356E /* burger.png */; };
-		FEEAC9751AEC9D7900BB356E /* burger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEAC9711AEC9D7900BB356E /* burger@2x.png */; };
-		FEEAC9761AEC9D7900BB356E /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEAC9721AEC9D7900BB356E /* set.png */; };
-		FEEAC9771AEC9D7900BB356E /* set@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEEAC9731AEC9D7900BB356E /* set@2x.png */; };
 		FEEAC97A1AEC9F8C00BB356E /* JCoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEAC9791AEC9F8C00BB356E /* JCoredataManager.m */; };
 		FEEAC98B1AECA72800BB356E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEEAC98D1AECA72800BB356E /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -67,12 +57,6 @@
 		FE24A3641ACB838E00A79647 /* JRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRootViewController.m; sourceTree = "<group>"; };
 		FE3680C01ACBA88D00292A67 /* JNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNavigationController.h; sourceTree = "<group>"; };
 		FE3680C11ACBA88D00292A67 /* JNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNavigationController.m; sourceTree = "<group>"; };
-		FE3680D01ACC37BF00292A67 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		FE3680D91ACC382D00292A67 /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
-		FE3680DB1ACC391300292A67 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
-		FE3680DC1ACC391300292A67 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
-		FE3680DD1ACC391300292A67 /* Icon-Spotlight-iOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-iOS7.png"; sourceTree = "<group>"; };
-		FE3680DE1ACC391300292A67 /* Icon-Spotlight-iOS7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-iOS7@2x.png"; sourceTree = "<group>"; };
 		FE6AFF0C1AE3984800058535 /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
 		FE6AFF0D1AE3984800058535 /* launchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchImage@2x.png"; sourceTree = "<group>"; };
 		FEC0284D1AD376330093CCD7 /* JShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JShowViewController.h; sourceTree = "<group>"; };
@@ -86,10 +70,6 @@
 		FEC028691AD4BC2D0093CCD7 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		FEC0286E1AD4BEB60093CCD7 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
 		FEC0286F1AD4BEB60093CCD7 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
-		FEEAC9701AEC9D7900BB356E /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger.png; sourceTree = "<group>"; };
-		FEEAC9711AEC9D7900BB356E /* burger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "burger@2x.png"; sourceTree = "<group>"; };
-		FEEAC9721AEC9D7900BB356E /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set.png; sourceTree = "<group>"; };
-		FEEAC9731AEC9D7900BB356E /* set@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "set@2x.png"; sourceTree = "<group>"; };
 		FEEAC9781AEC9F8C00BB356E /* JCoredataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCoredataManager.h; sourceTree = "<group>"; };
 		FEEAC9791AEC9F8C00BB356E /* JCoredataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCoredataManager.m; sourceTree = "<group>"; };
 		FEEAC98F1AECA73900BB356E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -220,27 +200,9 @@
 		FE3680C31ACC354900292A67 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				FEEAC9701AEC9D7900BB356E /* burger.png */,
-				FEEAC9711AEC9D7900BB356E /* burger@2x.png */,
-				FEEAC9721AEC9D7900BB356E /* set.png */,
-				FEEAC9731AEC9D7900BB356E /* set@2x.png */,
 				FE6AFF0B1AE397A600058535 /* LaunchImage */,
-				FE3680C41ACC354900292A67 /* Icon */,
 			);
 			path = Image;
-			sourceTree = "<group>";
-		};
-		FE3680C41ACC354900292A67 /* Icon */ = {
-			isa = PBXGroup;
-			children = (
-				FE3680DB1ACC391300292A67 /* Icon-76.png */,
-				FE3680DC1ACC391300292A67 /* Icon-76@2x.png */,
-				FE3680DD1ACC391300292A67 /* Icon-Spotlight-iOS7.png */,
-				FE3680DE1ACC391300292A67 /* Icon-Spotlight-iOS7@2x.png */,
-				FE3680D01ACC37BF00292A67 /* icon@2x.png */,
-				FE3680D91ACC382D00292A67 /* icon@3x.png */,
-			);
-			path = Icon;
 			sourceTree = "<group>";
 		};
 		FE6AFF0B1AE397A600058535 /* LaunchImage */ = {
@@ -384,19 +346,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEEAC9741AEC9D7900BB356E /* burger.png in Resources */,
 				FE6AFF0E1AE3984800058535 /* launchImage.png in Resources */,
-				FEEAC9771AEC9D7900BB356E /* set@2x.png in Resources */,
-				FEEAC9761AEC9D7900BB356E /* set.png in Resources */,
-				FEEAC9751AEC9D7900BB356E /* burger@2x.png in Resources */,
 				FE0F50FB1AC8EEDE00938D18 /* Images.xcassets in Resources */,
-				FE3680E21ACC391300292A67 /* Icon-Spotlight-iOS7@2x.png in Resources */,
-				FE3680DF1ACC391300292A67 /* Icon-76.png in Resources */,
-				FE3680DA1ACC382D00292A67 /* icon@3x.png in Resources */,
-				FE3680E01ACC391300292A67 /* Icon-76@2x.png in Resources */,
-				FE3680D21ACC37BF00292A67 /* icon@2x.png in Resources */,
 				FEC028511AD376330093CCD7 /* JShowViewController.xib in Resources */,
-				FE3680E11ACC391300292A67 /* Icon-Spotlight-iOS7.png in Resources */,
 				FEEAC98B1AECA72800BB356E /* Localizable.strings in Resources */,
 				FE6AFF0F1AE3984800058535 /* launchImage@2x.png in Resources */,
 				FEC028561AD3764E0093CCD7 /* JSettingViewController.xib in Resources */,
