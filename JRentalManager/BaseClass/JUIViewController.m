@@ -40,13 +40,12 @@
 #pragma mark - Rewrite setBackgroundImage
 - (void) setbgImageWithName:(NSString *)ImageName
 {
-    [self.view addSubview:_bgImage];
-    [self.view sendSubviewToBack:_bgImage];
+    [self.view insertSubview:_bgImage atIndex:0];
     if (ImageName) {
-        _bgImage.image = [UIImage imageNamed:ImageName];
+        _bgImage.image = [[UIImage imageNamed:ImageName] drn_boxblurImageWithBlur:0.2];
     }else
     {
-        _bgImage.image = [UIImage imageNamed:@"defultbg"];
+        _bgImage.image = [[UIImage imageNamed:@"defultbg"] drn_boxblurImageWithBlur:0.2];
     }
 }
 

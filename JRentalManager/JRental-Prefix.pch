@@ -17,6 +17,7 @@
 #import "JNavigationController.h"
 
 #import "UIView+category.h"
+#import "UIImage+category.h"
 
 #endif
 

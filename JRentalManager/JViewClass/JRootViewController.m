@@ -70,7 +70,7 @@
         centerVC = [[JSettingViewController alloc] init];
     }
     [centerVC setLeftBaritem:self];
-   
+    
     [_navi setViewControllers:@[centerVC] animated:NO];
 }
 

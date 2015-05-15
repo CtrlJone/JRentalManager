@@ -52,11 +52,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JRentalManager/Vendor/RNFrostedSidebar/RNFrostedSidebar.m"
-            timestampString = "453360156.648196"
+            timestampString = "453368429.519818"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "394"
-            endingLineNumber = "394"
+            startingLineNumber = "399"
+            endingLineNumber = "399"
             landmarkName = "-showInViewController:animated:"
             landmarkType = "5">
          </BreakpointContent>

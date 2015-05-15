@@ -15,6 +15,7 @@
 		FE0F51171AC8F9B700938D18 /* JUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0F51161AC8F9B700938D18 /* JUIViewController.m */; };
 		FE2466991B05ADAD007C75CE /* UIView+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2466981B05ADAD007C75CE /* UIView+category.m */; };
 		FE24669B1B05BD81007C75CE /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE24669A1B05BD81007C75CE /* Reveal.framework */; };
+		FE24669E1B05D6F0007C75CE /* UIImage+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE24669D1B05D6F0007C75CE /* UIImage+category.m */; };
 		FE24A3651ACB838E00A79647 /* JRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE24A3641ACB838E00A79647 /* JRootViewController.m */; };
 		FE3680C21ACBA88D00292A67 /* JNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3680C11ACBA88D00292A67 /* JNavigationController.m */; };
 		FEC028501AD376330093CCD7 /* JShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0284E1AD376330093CCD7 /* JShowViewController.m */; };
@@ -56,6 +57,8 @@
 		FE2466971B05ADAD007C75CE /* UIView+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+category.h"; sourceTree = "<group>"; };
 		FE2466981B05ADAD007C75CE /* UIView+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+category.m"; sourceTree = "<group>"; };
 		FE24669A1B05BD81007C75CE /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = "../../../../Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/Reveal.framework"; sourceTree = "<group>"; };
+		FE24669C1B05D6F0007C75CE /* UIImage+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+category.h"; sourceTree = "<group>"; };
+		FE24669D1B05D6F0007C75CE /* UIImage+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+category.m"; sourceTree = "<group>"; };
 		FE24A3631ACB838E00A79647 /* JRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRootViewController.h; sourceTree = "<group>"; };
 		FE24A3641ACB838E00A79647 /* JRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRootViewController.m; sourceTree = "<group>"; };
 		FE3680C01ACBA88D00292A67 /* JNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNavigationController.h; sourceTree = "<group>"; };
@@ -209,6 +212,8 @@
 			children = (
 				FE2466971B05ADAD007C75CE /* UIView+category.h */,
 				FE2466981B05ADAD007C75CE /* UIView+category.m */,
+				FE24669C1B05D6F0007C75CE /* UIImage+category.h */,
+				FE24669D1B05D6F0007C75CE /* UIImage+category.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -427,6 +432,7 @@
 				FE0F50F91AC8EEDE00938D18 /* AppDelegate.m in Sources */,
 				FE24A3651ACB838E00A79647 /* JRootViewController.m in Sources */,
 				FE3680C21ACBA88D00292A67 /* JNavigationController.m in Sources */,
+				FE24669E1B05D6F0007C75CE /* UIImage+category.m in Sources */,
 				FE0F50F61AC8EEDE00938D18 /* main.m in Sources */,
 				FEC028551AD3764E0093CCD7 /* JSettingViewController.m in Sources */,
 				FEEAC97A1AEC9F8C00BB356E /* JCoredataManager.m in Sources */,

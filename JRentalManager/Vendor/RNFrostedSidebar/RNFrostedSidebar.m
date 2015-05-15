@@ -329,8 +329,13 @@ static RNFrostedSidebar *rn_frostedMenu;
         effectview.frame = CGRectMake(0, 0, JSCREEN_WIDTH, JSCREEN_HEIGHT);
         
         [self.view addSubview:effectview];
+    }else
+    {
+        UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, JSCREEN_WIDTH, JSCREEN_HEIGHT)];
+        image.image = [[UIImage imageNamed:@"defultbg"] drn_boxblurImageWithBlur:0.5];
+        [self.view addSubview:image];
     }
-    
+
     [self.view addSubview:self.contentView];
     self.tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
     [self.view addGestureRecognizer:self.tapGesture];
