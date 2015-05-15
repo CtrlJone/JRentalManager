@@ -12,4 +12,6 @@
 
 - (void) setLeftBaritem:(JUIViewController *) idClass;
 
+- (void) setbgImageWithName:(NSString *)ImageName;
+
 @end

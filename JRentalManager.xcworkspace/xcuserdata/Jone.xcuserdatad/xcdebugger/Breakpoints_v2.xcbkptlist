@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JRentalManager/BaseClass/JUIViewController.m"
-            timestampString = "450149844.285479"
+            timestampString = "453362016.210547"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "-setTitle:"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JRentalManager/JViewClass/JRootViewController.m"
-            timestampString = "453006957.747545"
+            timestampString = "453359754.724997"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "46"
@@ -52,11 +52,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JRentalManager/Vendor/RNFrostedSidebar/RNFrostedSidebar.m"
-            timestampString = "450967509.395692"
+            timestampString = "453360156.648196"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "383"
-            endingLineNumber = "383"
+            startingLineNumber = "394"
+            endingLineNumber = "394"
             landmarkName = "-showInViewController:animated:"
             landmarkType = "5">
          </BreakpointContent>
@@ -68,11 +68,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JRentalManager/BaseClass/JUIViewController.m"
-            timestampString = "450967847.647228"
+            timestampString = "453362016.210547"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "-setLeftBaritem:"
             landmarkType = "5">
          </BreakpointContent>
@@ -80,49 +80,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JRentalManager/JViewClass/JRootViewController.m"
-            timestampString = "453007106.835815"
+            timestampString = "453362998.724396"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
-            landmarkName = "-sidebar:didTapItemAtIndex:"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "-loadCenterVC:"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[JRootViewController sidebar:didTapItemAtIndex:]"
-                  moduleName = "JRentalManager"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Jone/JoneWorks/JRentalManager/JRentalManager/JViewClass/JRootViewController.m"
-                  timestampString = "453006987.696349"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85"
-                  offsetFromSymbolStart = "76">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__49-[JRootViewController sidebar:didTapItemAtIndex:]_block_invoke"
-                  moduleName = "JRentalManager"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Jone/JoneWorks/JRentalManager/JRentalManager/JViewClass/JRootViewController.m"
-                  timestampString = "453006987.696707"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85"
-                  offsetFromSymbolStart = "20">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

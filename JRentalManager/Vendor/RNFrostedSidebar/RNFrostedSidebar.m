@@ -320,6 +320,17 @@ static RNFrostedSidebar *rn_frostedMenu;
 - (void)loadView {
     [super loadView];
     self.view.backgroundColor = [UIColor clearColor];
+    if (JIOS_VERSION >= 8.0) {
+        //    仅在iOS 8 中起效(毛玻璃效果)
+        UIBlurEffect *blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
+        
+        UIVisualEffectView *effectview = [[UIVisualEffectView alloc] initWithEffect:blur];
+        
+        effectview.frame = CGRectMake(0, 0, JSCREEN_WIDTH, JSCREEN_HEIGHT);
+        
+        [self.view addSubview:effectview];
+    }
+    
     [self.view addSubview:self.contentView];
     self.tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
     [self.view addGestureRecognizer:self.tapGesture];

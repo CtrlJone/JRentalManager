@@ -29,8 +29,8 @@
 #pragma mark - initNavigationBar
 - (void) initNavigationBar
 {
-    self.navigationBar.barTintColor = [UIColor hollyGreenColor];
-    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName: [UIFont systemFontOfSize:16]}];
+    self.navigationBar.backgroundColor = [UIColor clearColor];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor blackColor],NSFontAttributeName: [UIFont systemFontOfSize:16]}];
 }
 
 #pragma mark - popViewController

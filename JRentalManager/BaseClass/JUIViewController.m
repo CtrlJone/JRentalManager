@@ -11,6 +11,8 @@
 
 @interface JUIViewController ()
 
+@property (nonatomic,strong) UIImageView *bgImage;
+
 @end
 
 @implementation JUIViewController
@@ -18,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _bgImage = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, JSCREEN_WIDTH, JSCREEN_HEIGHT)];
+    
 }
 
 #pragma mark - initBaritem
@@ -28,9 +32,22 @@
 }
 
 #pragma mark - Rewrite setTitle for custom tabbar
-- (void)setTitle:(NSString *)title
+- (void) setTitle:(NSString *)title
 {
     self.navigationItem.title = title;
+}
+
+#pragma mark - Rewrite setBackgroundImage
+- (void) setbgImageWithName:(NSString *)ImageName
+{
+    [self.view addSubview:_bgImage];
+    [self.view sendSubviewToBack:_bgImage];
+    if (ImageName) {
+        _bgImage.image = [UIImage imageNamed:ImageName];
+    }else
+    {
+        _bgImage.image = [UIImage imageNamed:@"defultbg"];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

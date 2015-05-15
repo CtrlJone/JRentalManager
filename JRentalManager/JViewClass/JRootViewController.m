@@ -12,12 +12,12 @@
 
 #import "JShowViewController.h"
 #import "JSettingViewController.h"
-#import "JNavigationController.h"
 
 @interface JRootViewController ()<RNFrostedSidebarDelegate>
 {
     RNFrostedSidebar *_sidebar;
     JNavigationController *_navi;
+    NSInteger _selectIndex;
 }
 @property (nonatomic, strong) NSMutableIndexSet *indexSet;
 
@@ -31,6 +31,7 @@
     self = [super init];
     if (self) {
         _navi = [[JNavigationController alloc] init];
+        _selectIndex = 0;
     }
     return self;
 }
@@ -38,7 +39,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
     [self.view addSubview:_navi.view];
     
     [self initSidebar];
@@ -64,11 +64,13 @@
     JUIViewController *centerVC;
     if (selIndex == 0) {
         centerVC = [[JShowViewController alloc] init];
+        [centerVC setbgImageWithName:nil];
     }
     if (selIndex == 1) {
         centerVC = [[JSettingViewController alloc] init];
     }
-     [centerVC setLeftBaritem:self];
+    [centerVC setLeftBaritem:self];
+   
     [_navi setViewControllers:@[centerVC] animated:NO];
 }
 
@@ -81,7 +83,10 @@
 - (void)sidebar:(RNFrostedSidebar *)sidebar didTapItemAtIndex:(NSUInteger)index {
     
     [sidebar dismissAnimated:YES completion:^(BOOL finished) {
-        [self loadCenterVC:index];
+        if (_selectIndex != index) {
+            [self loadCenterVC:index];
+            _selectIndex = index;
+        }
     }];
 }
 
