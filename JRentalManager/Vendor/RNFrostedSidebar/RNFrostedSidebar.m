@@ -250,7 +250,7 @@ static RNFrostedSidebar *rn_frostedMenu;
         _animationDuration = 0.25f;
         _itemSize = CGSizeMake(_width/2, _width/2);
         _itemViews = [NSMutableArray array];
-        _tintColor = [UIColor colorWithWhite:0.2 alpha:0.73];
+        _tintColor = [UIColor colorWithWhite:0 alpha:0.5];
         _borderWidth = 2;
         _itemBackgroundColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:0.25];
         
@@ -311,7 +311,7 @@ static RNFrostedSidebar *rn_frostedMenu;
     }else
     {
         UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, JSCREEN_WIDTH, JSCREEN_HEIGHT)];
-        image.image = [[UIImage imageNamed:@"bgmenu"] drn_boxblurImageWithBlur:0.5];
+        image.image = [[[UIImage imageNamed:@"bgmenu"] drn_boxblurImageWithBlur:0.5] imageByApplyingAlpha:0.5];
         [self.view addSubview:image];
     }
 

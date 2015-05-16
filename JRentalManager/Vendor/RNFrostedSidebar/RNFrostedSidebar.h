@@ -47,7 +47,7 @@
 @property (nonatomic, assign) CGSize itemSize;
 
 // The color to tint the blur effect
-// Default white: 0.2, alpha: 0.73
+// Default white: 0, alpha: 0.5
 @property (nonatomic, strong) UIColor *tintColor;
 
 // The background color for each item view

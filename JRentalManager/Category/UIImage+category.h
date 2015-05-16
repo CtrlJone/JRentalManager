@@ -16,4 +16,8 @@
 
 - (UIImage*)drn_boxblurImageWithBlur:(CGFloat)blur;
 
+- (UIColor *)averageColor;
+
+- (UIImage *)imageByApplyingAlpha:(CGFloat)alpha;
+
 @end
