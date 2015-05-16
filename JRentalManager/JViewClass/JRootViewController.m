@@ -64,13 +64,12 @@
     JUIViewController *centerVC;
     if (selIndex == 0) {
         centerVC = [[JShowViewController alloc] init];
-        [centerVC setbgImageWithName:nil];
     }
     if (selIndex == 1) {
         centerVC = [[JSettingViewController alloc] init];
     }
     [centerVC setLeftBaritem:self];
-    
+    [centerVC setbgImageWithName:nil];
     [_navi setViewControllers:@[centerVC] animated:NO];
 }
 

@@ -14,6 +14,7 @@
 		FE0F510A1AC8EEDE00938D18 /* JRentalManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0F51091AC8EEDE00938D18 /* JRentalManagerTests.m */; };
 		FE0F51171AC8F9B700938D18 /* JUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0F51161AC8F9B700938D18 /* JUIViewController.m */; };
 		FE2265261B07833E00FA1BC5 /* UIColor+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2265251B07833E00FA1BC5 /* UIColor+category.m */; };
+		FE2265291B07931000FA1BC5 /* UITableViewCell+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2265281B07931000FA1BC5 /* UITableViewCell+category.m */; };
 		FE2466991B05ADAD007C75CE /* UIView+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2466981B05ADAD007C75CE /* UIView+category.m */; };
 		FE24669B1B05BD81007C75CE /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE24669A1B05BD81007C75CE /* Reveal.framework */; };
 		FE24669E1B05D6F0007C75CE /* UIImage+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE24669D1B05D6F0007C75CE /* UIImage+category.m */; };
@@ -57,6 +58,8 @@
 		FE0F51161AC8F9B700938D18 /* JUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JUIViewController.m; sourceTree = "<group>"; };
 		FE2265241B07833E00FA1BC5 /* UIColor+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+category.h"; sourceTree = "<group>"; };
 		FE2265251B07833E00FA1BC5 /* UIColor+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+category.m"; sourceTree = "<group>"; };
+		FE2265271B07931000FA1BC5 /* UITableViewCell+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+category.h"; sourceTree = "<group>"; };
+		FE2265281B07931000FA1BC5 /* UITableViewCell+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+category.m"; sourceTree = "<group>"; };
 		FE2466971B05ADAD007C75CE /* UIView+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+category.h"; sourceTree = "<group>"; };
 		FE2466981B05ADAD007C75CE /* UIView+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+category.m"; sourceTree = "<group>"; };
 		FE24669A1B05BD81007C75CE /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = "../../../../Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/Reveal.framework"; sourceTree = "<group>"; };
@@ -219,6 +222,8 @@
 				FE24669D1B05D6F0007C75CE /* UIImage+category.m */,
 				FE2265241B07833E00FA1BC5 /* UIColor+category.h */,
 				FE2265251B07833E00FA1BC5 /* UIColor+category.m */,
+				FE2265271B07931000FA1BC5 /* UITableViewCell+category.h */,
+				FE2265281B07931000FA1BC5 /* UITableViewCell+category.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -435,6 +440,7 @@
 			files = (
 				FEC028701AD4BEB60093CCD7 /* Room.m in Sources */,
 				FE2265261B07833E00FA1BC5 /* UIColor+category.m in Sources */,
+				FE2265291B07931000FA1BC5 /* UITableViewCell+category.m in Sources */,
 				FE0F50F91AC8EEDE00938D18 /* AppDelegate.m in Sources */,
 				FE24A3651ACB838E00A79647 /* JRootViewController.m in Sources */,
 				FE3680C21ACBA88D00292A67 /* JNavigationController.m in Sources */,
