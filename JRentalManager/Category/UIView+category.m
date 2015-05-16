@@ -10,29 +10,18 @@
 
 @implementation UIView (category)
 
-- (UIImage *)screenshot
-{
-    UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, [UIScreen mainScreen].scale);
-    
-    // IOS7及其后续版本
-    if ([self respondsToSelector:@selector(drawViewHierarchyInRect:afterScreenUpdates:)]) {
-        NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:
-                                    [self methodSignatureForSelector:
-                                     @selector(drawViewHierarchyInRect:afterScreenUpdates:)]];
-        [invocation setTarget:self];
-        [invocation setSelector:@selector(drawViewHierarchyInRect:afterScreenUpdates:)];
-        CGRect arg2 = self.bounds;
-        BOOL arg3 = YES;
-        [invocation setArgument:&arg2 atIndex:2];
-        [invocation setArgument:&arg3 atIndex:3];
-        [invocation invoke];
-    } else { // IOS7之前的版本
+- (UIImage *)screenshot {
+    UIGraphicsBeginImageContext(self.bounds.size);
+    if([self respondsToSelector:@selector(drawViewHierarchyInRect:afterScreenUpdates:)]){
+        [self drawViewHierarchyInRect:self.bounds afterScreenUpdates:NO];
+    }
+    else{
         [self.layer renderInContext:UIGraphicsGetCurrentContext()];
     }
-    
-    UIImage *screenshot = UIGraphicsGetImageFromCurrentImageContext();
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
-    return screenshot;
+    NSData *imageData = UIImageJPEGRepresentation(image, 0.75);
+    image = [UIImage imageWithData:imageData];
+    return image;
 }
-
 @end

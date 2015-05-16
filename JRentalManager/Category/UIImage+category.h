@@ -10,6 +10,10 @@
 
 @interface UIImage (category)
 
++ (UIImage *)imageWithColor:(UIColor *)color;
+
++ (UIImage *)imageWithColor:(UIColor *)color andRect:(CGRect)rect;
+
 - (UIImage*)drn_boxblurImageWithBlur:(CGFloat)blur;
 
 @end

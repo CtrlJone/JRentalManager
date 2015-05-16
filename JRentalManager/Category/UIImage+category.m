@@ -11,6 +11,25 @@
 
 @implementation UIImage (category)
 
++ (UIImage *)imageWithColor:(UIColor *)color
+{
+    return [self imageWithColor:color andRect:CGRectMake(0, 0, 1, 1)];
+}
+
++ (UIImage *)imageWithColor:(UIColor *)color andRect:(CGRect)rect
+{
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
+
 - (UIImage*)drn_boxblurImageWithBlur:(CGFloat)blur
 {
     if (blur < 0.f || blur > 1.f) {

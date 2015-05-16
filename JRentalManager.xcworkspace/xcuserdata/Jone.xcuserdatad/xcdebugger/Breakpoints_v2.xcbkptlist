@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JRentalManager/BaseClass/JUIViewController.m"
-            timestampString = "453362016.210547"
+            timestampString = "450149844.285479"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "-setTitle:"
-            landmarkType = "5">
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "@implementation JUIViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JRentalManager/JViewClass/JRootViewController.m"
-            timestampString = "453359754.724997"
+            timestampString = "450107175.505323"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "-init"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -52,28 +52,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JRentalManager/Vendor/RNFrostedSidebar/RNFrostedSidebar.m"
-            timestampString = "453368429.519818"
+            timestampString = "453476639.336123"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "399"
-            endingLineNumber = "399"
-            landmarkName = "-showInViewController:animated:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "JRentalManager/BaseClass/JUIViewController.m"
-            timestampString = "453362016.210547"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "-setLeftBaritem:"
+            startingLineNumber = "362"
+            endingLineNumber = "362"
+            landmarkName = "-animateFauxBounceWithView:idx:initDelay:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -83,14 +67,30 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "JRentalManager/JViewClass/JRootViewController.m"
-            timestampString = "453362998.724396"
+            filePath = "JRentalManager/Vendor/RNFrostedSidebar/RNFrostedSidebar.m"
+            timestampString = "453476639.336123"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "-loadCenterVC:"
+            startingLineNumber = "441"
+            endingLineNumber = "441"
+            landmarkName = "-showInViewController:animated:"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JRentalManager/BaseClass/JUIViewController.m"
+            timestampString = "450967847.647228"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "@implementation JUIViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

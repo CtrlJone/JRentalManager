@@ -11,27 +11,6 @@
 #import "RNFrostedSidebar.h"
 #import <QuartzCore/QuartzCore.h>
 
-#pragma mark - Categories
-
-@implementation UIView (rn_Screenshot)
-
-- (UIImage *)rn_screenshot {
-    UIGraphicsBeginImageContext(self.bounds.size);
-    if([self respondsToSelector:@selector(drawViewHierarchyInRect:afterScreenUpdates:)]){
-        [self drawViewHierarchyInRect:self.bounds afterScreenUpdates:NO];
-    }
-    else{
-        [self.layer renderInContext:UIGraphicsGetCurrentContext()];
-    }
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    NSData *imageData = UIImageJPEGRepresentation(image, 0.75);
-    image = [UIImage imageWithData:imageData];
-    return image;
-}
-
-@end
-
 #import <Accelerate/Accelerate.h>
 
 @implementation UIImage (rn_Blur)
@@ -322,17 +301,17 @@ static RNFrostedSidebar *rn_frostedMenu;
     self.view.backgroundColor = [UIColor clearColor];
     if (JIOS_VERSION >= 8.0) {
         //    仅在iOS 8 中起效(毛玻璃效果)
-        UIBlurEffect *blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleDark];
+        UIBlurEffect *blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
         
         UIVisualEffectView *effectview = [[UIVisualEffectView alloc] initWithEffect:blur];
         
         effectview.frame = CGRectMake(0, 0, JSCREEN_WIDTH, JSCREEN_HEIGHT);
-        
+        effectview.alpha = 0.5;
         [self.view addSubview:effectview];
     }else
     {
         UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, JSCREEN_WIDTH, JSCREEN_HEIGHT)];
-        image.image = [[UIImage imageNamed:@"defultbg"] drn_boxblurImageWithBlur:0.5];
+        image.image = [[UIImage imageNamed:@"bgmenu"] drn_boxblurImageWithBlur:0.5];
         [self.view addSubview:image];
     }
 
@@ -354,8 +333,8 @@ static RNFrostedSidebar *rn_frostedMenu;
     
     if ([self isViewLoaded] && self.view.window != nil) {
         self.view.alpha = 0;
-        UIImage *blurImage = [self.parentViewController.view rn_screenshot];
-        blurImage = [blurImage applyBlurWithRadius:5 tintColor:self.tintColor saturationDeltaFactor:1.8 maskImage:nil];
+        UIImage *blurImage = [self.parentViewController.view screenshot];
+        blurImage = [blurImage applyBlurWithRadius:0 tintColor:self.tintColor saturationDeltaFactor:1.8 maskImage:nil];
         self.blurView.image = blurImage;
         self.view.alpha = 1;
         
@@ -406,8 +385,8 @@ static RNFrostedSidebar *rn_frostedMenu;
     
     rn_frostedMenu = self;
     
-    UIImage *blurImage = [controller.view rn_screenshot];
-    blurImage = [blurImage applyBlurWithRadius:5 tintColor:self.tintColor saturationDeltaFactor:1.8 maskImage:nil];
+    UIImage *blurImage = [controller.view screenshot];
+    blurImage = [blurImage applyBlurWithRadius:0 tintColor:self.tintColor saturationDeltaFactor:1.8 maskImage:nil];
     
     [self rn_addToParentViewController:controller callingAppearanceMethods:YES];
     self.view.frame = controller.view.bounds;

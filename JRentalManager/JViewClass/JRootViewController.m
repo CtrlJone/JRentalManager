@@ -55,6 +55,7 @@
     _sidebar = [[RNFrostedSidebar alloc] initWithImages:images selectedIndices:[NSMutableIndexSet indexSetWithIndex:0] borderColors:colors];
     _sidebar.isSingleSelect = YES;
     _sidebar.delegate = self;
+    _sidebar.tintColor = [UIColor blackTranslucentColor];
 }
 
 

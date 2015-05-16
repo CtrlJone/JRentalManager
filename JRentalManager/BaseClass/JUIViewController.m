@@ -42,10 +42,10 @@
 {
     [self.view insertSubview:_bgImage atIndex:0];
     if (ImageName) {
-        _bgImage.image = [[UIImage imageNamed:ImageName] drn_boxblurImageWithBlur:0.2];
+        _bgImage.image = [UIImage imageNamed:ImageName];
     }else
     {
-        _bgImage.image = [[UIImage imageNamed:@"defultbg"] drn_boxblurImageWithBlur:0.2];
+        _bgImage.image = [UIImage imageNamed:@"bgCommon"];
     }
 }
 

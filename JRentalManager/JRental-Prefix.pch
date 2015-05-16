@@ -18,6 +18,7 @@
 
 #import "UIView+category.h"
 #import "UIImage+category.h"
+#import "UIColor+category.h"
 
 #endif
 
