@@ -15,6 +15,8 @@
 		FE0F51171AC8F9B700938D18 /* JUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0F51161AC8F9B700938D18 /* JUIViewController.m */; };
 		FE2265261B07833E00FA1BC5 /* UIColor+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2265251B07833E00FA1BC5 /* UIColor+category.m */; };
 		FE2265291B07931000FA1BC5 /* UITableViewCell+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2265281B07931000FA1BC5 /* UITableViewCell+category.m */; };
+		FE22652D1B08592800FA1BC5 /* JShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE22652B1B08592800FA1BC5 /* JShowCell.m */; };
+		FE22652E1B08592800FA1BC5 /* JShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE22652C1B08592800FA1BC5 /* JShowCell.xib */; };
 		FE2466991B05ADAD007C75CE /* UIView+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2466981B05ADAD007C75CE /* UIView+category.m */; };
 		FE24669B1B05BD81007C75CE /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE24669A1B05BD81007C75CE /* Reveal.framework */; };
 		FE24669E1B05D6F0007C75CE /* UIImage+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE24669D1B05D6F0007C75CE /* UIImage+category.m */; };
@@ -60,6 +62,9 @@
 		FE2265251B07833E00FA1BC5 /* UIColor+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+category.m"; sourceTree = "<group>"; };
 		FE2265271B07931000FA1BC5 /* UITableViewCell+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+category.h"; sourceTree = "<group>"; };
 		FE2265281B07931000FA1BC5 /* UITableViewCell+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+category.m"; sourceTree = "<group>"; };
+		FE22652A1B08592800FA1BC5 /* JShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JShowCell.h; sourceTree = "<group>"; };
+		FE22652B1B08592800FA1BC5 /* JShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JShowCell.m; sourceTree = "<group>"; };
+		FE22652C1B08592800FA1BC5 /* JShowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JShowCell.xib; sourceTree = "<group>"; };
 		FE2466971B05ADAD007C75CE /* UIView+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+category.h"; sourceTree = "<group>"; };
 		FE2466981B05ADAD007C75CE /* UIView+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+category.m"; sourceTree = "<group>"; };
 		FE24669A1B05BD81007C75CE /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = "../../../../Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/Reveal.framework"; sourceTree = "<group>"; };
@@ -231,6 +236,9 @@
 		FE67F2B71B007F9A006B6251 /* JShowCell */ = {
 			isa = PBXGroup;
 			children = (
+				FE22652A1B08592800FA1BC5 /* JShowCell.h */,
+				FE22652B1B08592800FA1BC5 /* JShowCell.m */,
+				FE22652C1B08592800FA1BC5 /* JShowCell.xib */,
 			);
 			path = JShowCell;
 			sourceTree = "<group>";
@@ -385,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE0F50FB1AC8EEDE00938D18 /* Images.xcassets in Resources */,
+				FE22652E1B08592800FA1BC5 /* JShowCell.xib in Resources */,
 				FEC028511AD376330093CCD7 /* JShowViewController.xib in Resources */,
 				FEEAC98B1AECA72800BB356E /* Localizable.strings in Resources */,
 				FEC028561AD3764E0093CCD7 /* JSettingViewController.xib in Resources */,
@@ -439,6 +448,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEC028701AD4BEB60093CCD7 /* Room.m in Sources */,
+				FE22652D1B08592800FA1BC5 /* JShowCell.m in Sources */,
 				FE2265261B07833E00FA1BC5 /* UIColor+category.m in Sources */,
 				FE2265291B07931000FA1BC5 /* UITableViewCell+category.m in Sources */,
 				FE0F50F91AC8EEDE00938D18 /* AppDelegate.m in Sources */,
