@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface UIColor (category)
-
+/**
+ *  返回半透明颜色
+ *
+ *  @return 颜色
+ */
 + (instancetype)blackTranslucentColor;
 
 @end

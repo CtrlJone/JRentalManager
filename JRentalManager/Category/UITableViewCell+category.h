@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface UITableViewCell (category)
-
+/**
+ *  设置Separator的线置顶(指左端)
+ */
 -(void)setSeparatorInsetMarginZero;
 
 @end

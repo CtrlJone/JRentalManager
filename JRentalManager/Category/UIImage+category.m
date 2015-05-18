@@ -90,13 +90,8 @@
     
     free(pixelBuffer);
     //free(pixelBuffer2);
-    
     CFRelease(inBitmapData);
-    
     CGImageRelease(imageRef);
-    
-    
-    
     return returnImage;
 }
 
@@ -146,6 +141,42 @@
     UIGraphicsEndImageContext();
     
     return newImage;
+}
+
+- (UIImage *)imageWithGlass
+{
+    // 数据源 + 设置
+    CIImage *ciImage = [[CIImage alloc] initWithImage:self];
+    NSDictionary *params = @{
+                             kCIInputImageKey: ciImage,
+                             };
+    
+    // 初始化滤镜
+    CIFilter *filter = [CIFilter filterWithName:@"CIGlassDistortion"
+                            withInputParameters:params];
+    [filter setDefaults];
+    
+    
+    // 输入变形参数
+    if ([filter respondsToSelector:NSSelectorFromString(@"inputTexture")]) {
+        CIImage *ciTextureImage = [[CIImage alloc] initWithImage:[UIImage imageNamed:@"grassdistortion"]];
+        [filter setValue:ciTextureImage forKey:@"inputTexture"];
+    }
+    
+    // 创建上下文 + 输出图片
+    CIContext *context   = [CIContext contextWithOptions:nil];
+    CIImage *outputImage = [filter outputImage];
+    
+    // 获取图片
+    CGImageRef cgImage   = [context createCGImage:outputImage
+                                         fromRect:[outputImage extent]];
+    // 获取图片
+    UIImage *image = [UIImage imageWithCGImage:cgImage];
+    
+    // 释放资源
+    CGImageRelease(cgImage);
+    
+    return image;
 }
 
 @end
