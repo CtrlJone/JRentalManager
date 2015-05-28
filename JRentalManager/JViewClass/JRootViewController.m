@@ -26,9 +26,9 @@
 
 @implementation JRootViewController
 
-- (instancetype)init
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
-    self = [super init];
+    self = [super initWithCoder:aDecoder];
     if (self) {
         _navi = [[JNavigationController alloc] init];
         _selectIndex = 0;
