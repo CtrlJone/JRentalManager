@@ -29,7 +29,8 @@
 		FEC028561AD3764E0093CCD7 /* JSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC028541AD3764E0093CCD7 /* JSettingViewController.xib */; };
 		FEC028601AD396350093CCD7 /* RNFrostedSidebar.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0285F1AD396350093CCD7 /* RNFrostedSidebar.m */; };
 		FEC0286A1AD4BC2D0093CCD7 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEC028681AD4BC2D0093CCD7 /* DataModel.xcdatamodeld */; };
-		FEC028701AD4BEB60093CCD7 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0286F1AD4BEB60093CCD7 /* Room.m */; };
+		FECC0EA71B185DF800CB8DF3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FECC0EA41B185DF800CB8DF3 /* Person.m */; };
+		FECC0EA81B185DF800CB8DF3 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = FECC0EA61B185DF800CB8DF3 /* Room.m */; };
 		FEEAC97A1AEC9F8C00BB356E /* JCoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEAC9791AEC9F8C00BB356E /* JCoredataManager.m */; };
 		FEEAC98B1AECA72800BB356E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEEAC98D1AECA72800BB356E /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -87,8 +88,10 @@
 		FEC0285E1AD396350093CCD7 /* RNFrostedSidebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFrostedSidebar.h; sourceTree = "<group>"; };
 		FEC0285F1AD396350093CCD7 /* RNFrostedSidebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFrostedSidebar.m; sourceTree = "<group>"; };
 		FEC028691AD4BC2D0093CCD7 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
-		FEC0286E1AD4BEB60093CCD7 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
-		FEC0286F1AD4BEB60093CCD7 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		FECC0EA31B185DF800CB8DF3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FECC0EA41B185DF800CB8DF3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FECC0EA51B185DF800CB8DF3 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		FECC0EA61B185DF800CB8DF3 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
 		FEEAC9781AEC9F8C00BB356E /* JCoredataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCoredataManager.h; sourceTree = "<group>"; };
 		FEEAC9791AEC9F8C00BB356E /* JCoredataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCoredataManager.m; sourceTree = "<group>"; };
 		FEEAC98F1AECA73900BB356E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -303,9 +306,11 @@
 		FEC028671AD4BBE30093CCD7 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
+				FECC0EA31B185DF800CB8DF3 /* Person.h */,
+				FECC0EA41B185DF800CB8DF3 /* Person.m */,
+				FECC0EA51B185DF800CB8DF3 /* Room.h */,
+				FECC0EA61B185DF800CB8DF3 /* Room.m */,
 				FEC028681AD4BC2D0093CCD7 /* DataModel.xcdatamodeld */,
-				FEC0286E1AD4BEB60093CCD7 /* Room.h */,
-				FEC0286F1AD4BEB60093CCD7 /* Room.m */,
 				FEEAC9781AEC9F8C00BB356E /* JCoredataManager.h */,
 				FEEAC9791AEC9F8C00BB356E /* JCoredataManager.m */,
 			);
@@ -451,7 +456,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEC028701AD4BEB60093CCD7 /* Room.m in Sources */,
 				FE22652D1B08592800FA1BC5 /* JShowCell.m in Sources */,
 				FE2265261B07833E00FA1BC5 /* UIColor+category.m in Sources */,
 				FE2265291B07931000FA1BC5 /* UITableViewCell+category.m in Sources */,
@@ -462,10 +466,12 @@
 				FE0F50F61AC8EEDE00938D18 /* main.m in Sources */,
 				FEC028551AD3764E0093CCD7 /* JSettingViewController.m in Sources */,
 				FEEAC97A1AEC9F8C00BB356E /* JCoredataManager.m in Sources */,
+				FECC0EA71B185DF800CB8DF3 /* Person.m in Sources */,
 				FEC028501AD376330093CCD7 /* JShowViewController.m in Sources */,
 				FEC0286A1AD4BC2D0093CCD7 /* DataModel.xcdatamodeld in Sources */,
 				FEC028601AD396350093CCD7 /* RNFrostedSidebar.m in Sources */,
 				FE2466991B05ADAD007C75CE /* UIView+category.m in Sources */,
+				FECC0EA81B185DF800CB8DF3 /* Room.m in Sources */,
 				FE0F51171AC8F9B700938D18 /* JUIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
