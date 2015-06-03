@@ -18,10 +18,10 @@
 		FE22652D1B08592800FA1BC5 /* JShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE22652B1B08592800FA1BC5 /* JShowCell.m */; };
 		FE22652E1B08592800FA1BC5 /* JShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE22652C1B08592800FA1BC5 /* JShowCell.xib */; };
 		FE2466991B05ADAD007C75CE /* UIView+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2466981B05ADAD007C75CE /* UIView+category.m */; };
-		FE24669B1B05BD81007C75CE /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE24669A1B05BD81007C75CE /* Reveal.framework */; };
 		FE24669E1B05D6F0007C75CE /* UIImage+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE24669D1B05D6F0007C75CE /* UIImage+category.m */; };
-		FE24A3651ACB838E00A79647 /* JRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE24A3641ACB838E00A79647 /* JRootViewController.m */; };
+		FE24A3651ACB838E00A79647 /* JRootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE24A3641ACB838E00A79647 /* JRootViewController.mm */; };
 		FE3680C21ACBA88D00292A67 /* JNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3680C11ACBA88D00292A67 /* JNavigationController.m */; };
+		FE46A0001B1EE8A10096C084 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE469FFF1B1EE8A10096C084 /* opencv2.framework */; };
 		FE9DB9A41B16F7A7006466D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9DB9A31B16F7A6006466D3 /* Main.storyboard */; };
 		FEC028501AD376330093CCD7 /* JShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0284E1AD376330093CCD7 /* JShowViewController.m */; };
 		FEC028511AD376330093CCD7 /* JShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC0284F1AD376330093CCD7 /* JShowViewController.xib */; };
@@ -69,13 +69,13 @@
 		FE22652C1B08592800FA1BC5 /* JShowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JShowCell.xib; sourceTree = "<group>"; };
 		FE2466971B05ADAD007C75CE /* UIView+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+category.h"; sourceTree = "<group>"; };
 		FE2466981B05ADAD007C75CE /* UIView+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+category.m"; sourceTree = "<group>"; };
-		FE24669A1B05BD81007C75CE /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = "../../../../Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/Reveal.framework"; sourceTree = "<group>"; };
 		FE24669C1B05D6F0007C75CE /* UIImage+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+category.h"; sourceTree = "<group>"; };
 		FE24669D1B05D6F0007C75CE /* UIImage+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+category.m"; sourceTree = "<group>"; };
 		FE24A3631ACB838E00A79647 /* JRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRootViewController.h; sourceTree = "<group>"; };
-		FE24A3641ACB838E00A79647 /* JRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRootViewController.m; sourceTree = "<group>"; };
+		FE24A3641ACB838E00A79647 /* JRootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JRootViewController.mm; sourceTree = "<group>"; };
 		FE3680C01ACBA88D00292A67 /* JNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNavigationController.h; sourceTree = "<group>"; };
 		FE3680C11ACBA88D00292A67 /* JNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNavigationController.m; sourceTree = "<group>"; };
+		FE469FFF1B1EE8A10096C084 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		FE71D45D1B0599A100923F68 /* JRental-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JRental-Prefix.pch"; sourceTree = "<group>"; };
 		FE71D4601B059AA900923F68 /* MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
 		FE9DB9A31B16F7A6006466D3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE46A0001B1EE8A10096C084 /* opencv2.framework in Frameworks */,
 				008DB2451EC443F9A9B031F7 /* libPods.a in Frameworks */,
-				FE24669B1B05BD81007C75CE /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +121,7 @@
 		D1C3B0D662E48651DD21DD21 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FE469FFF1B1EE8A10096C084 /* opencv2.framework */,
 				ED20380E616F2056D0727B8D /* libPods.a */,
 			);
 			name = Frameworks;
@@ -138,7 +139,6 @@
 		FE0F50E71AC8EEDD00938D18 = {
 			isa = PBXGroup;
 			children = (
-				FE24669A1B05BD81007C75CE /* Reveal.framework */,
 				FE0F50F21AC8EEDE00938D18 /* JRentalManager */,
 				FE0F51061AC8EEDE00938D18 /* JRentalManagerTests */,
 				FE0F50F11AC8EEDE00938D18 /* Products */,
@@ -219,7 +219,7 @@
 				FEC0284C1AD376040093CCD7 /* Showing */,
 				FEC0284B1AD376040093CCD7 /* Setting */,
 				FE24A3631ACB838E00A79647 /* JRootViewController.h */,
-				FE24A3641ACB838E00A79647 /* JRootViewController.m */,
+				FE24A3641ACB838E00A79647 /* JRootViewController.mm */,
 			);
 			path = JViewClass;
 			sourceTree = "<group>";
@@ -460,7 +460,7 @@
 				FE2265261B07833E00FA1BC5 /* UIColor+category.m in Sources */,
 				FE2265291B07931000FA1BC5 /* UITableViewCell+category.m in Sources */,
 				FE0F50F91AC8EEDE00938D18 /* AppDelegate.m in Sources */,
-				FE24A3651ACB838E00A79647 /* JRootViewController.m in Sources */,
+				FE24A3651ACB838E00A79647 /* JRootViewController.mm in Sources */,
 				FE3680C21ACBA88D00292A67 /* JNavigationController.m in Sources */,
 				FE24669E1B05D6F0007C75CE /* UIImage+category.m in Sources */,
 				FE0F50F61AC8EEDE00938D18 /* main.m in Sources */,
@@ -589,17 +589,67 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8CAAB934C21100B72FF15298 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JRentalManager/JRental-Prefix.pch";
 				INFOPLIST_FILE = JRentalManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"EaseMobClientSDKLite\"",
+					"-l\"Pods-AFNetworking\"",
+					"-l\"Pods-Colours\"",
+					"-l\"Pods-DACircularProgress\"",
+					"-l\"Pods-EaseMobSDK\"",
+					"-l\"Pods-MBProgressHUD\"",
+					"-l\"Pods-MWPhotoBrowser\"",
+					"-l\"Pods-PSTCollectionView\"",
+					"-l\"Pods-SDWebImage\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"stdc++.6\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -609,17 +659,67 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F9E74E7CD340A879D3F34CF /* Pods.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JRentalManager/JRental-Prefix.pch";
 				INFOPLIST_FILE = JRentalManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"EaseMobClientSDKLite\"",
+					"-l\"Pods-AFNetworking\"",
+					"-l\"Pods-Colours\"",
+					"-l\"Pods-DACircularProgress\"",
+					"-l\"Pods-EaseMobSDK\"",
+					"-l\"Pods-MBProgressHUD\"",
+					"-l\"Pods-MWPhotoBrowser\"",
+					"-l\"Pods-PSTCollectionView\"",
+					"-l\"Pods-SDWebImage\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"stdc++.6\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
