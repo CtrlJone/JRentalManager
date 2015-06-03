@@ -12,7 +12,6 @@
 
 #import "JShowViewController.h"
 #import "JSettingViewController.h"
-#import "opencv2/opencv.hpp"
 
 @interface JRootViewController ()<RNFrostedSidebarDelegate>
 {

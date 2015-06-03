@@ -8,6 +8,8 @@
 
 #import "UIImage+category.h"
 #import <Accelerate/Accelerate.h>
+#import <opencv2/imgproc/types_c.h>
+#import <opencv2/imgcodecs/ios.h>
 
 @implementation UIImage (category)
 
@@ -177,6 +179,30 @@
     CGImageRelease(cgImage);
     
     return image;
+}
+
+- (UIImage *)strokeImage
+{
+    cv::Mat cvImage;
+    // Convert UIImage * to cv::Mat
+    UIImageToMat(self, cvImage);
+    if (!cvImage.empty()) {
+        cv::Mat gray;
+        // Convert the image to grayscale;
+        cv::cvtColor(cvImage, gray, CV_RGBA2GRAY);
+        // Apply Gaussian filter to remove small edges
+        cv::GaussianBlur(gray, gray, cv::Size(5,5), 1.2,1.2);
+        // Calculate edges with Canny
+        cv::Mat edges;
+        cv::Canny(gray, edges, 0, 60);
+        // Fill image with white color
+        cvImage.setTo(cv::Scalar::all(255));
+        // Change color on edges
+        cvImage.setTo(cv::Scalar(0,128,255,255),edges);
+        // Convert cv::Mat to UIImage* and show the resulting image
+        return MatToUIImage(cvImage);
+    }
+    return nil;
 }
 
 @end

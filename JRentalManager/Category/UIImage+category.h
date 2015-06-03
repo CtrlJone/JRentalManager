@@ -54,5 +54,11 @@
  *  @return 图片
  */
 - (UIImage *)imageWithGlass;
+/**
+ *  给图片描边
+ *
+ *  @return 返回描边后的图片
+ */
+- (UIImage *)strokeImage;
 
 @end

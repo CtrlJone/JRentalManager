@@ -41,12 +41,15 @@
 - (void) setbgImageWithName:(NSString *)ImageName
 {
     [self.view insertSubview:_bgImage atIndex:0];
+    UIImage *image = nil;
     if (ImageName) {
-        _bgImage.image = [UIImage imageNamed:ImageName];
+        image = [UIImage imageNamed:ImageName];
     }else
     {
-        _bgImage.image = [UIImage imageNamed:@"bgCommon"];
+        image = [UIImage imageNamed:@"bgCommon"];
     }
+    _bgImage.image = [image strokeImage];
+    
 }
 
 - (void)didReceiveMemoryWarning {
