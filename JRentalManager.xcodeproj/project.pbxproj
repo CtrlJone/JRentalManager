@@ -595,7 +595,8 @@
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
 				);
-				GCC_PREFIX_HEADER = "/Users/Jone/JRentalManager/JRentalManager/JRental-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JRentalManager/JRental-Prefix.pch";
 				INFOPLIST_FILE = JRentalManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -614,7 +615,8 @@
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
 				);
-				GCC_PREFIX_HEADER = "/Users/Jone/JRentalManager/JRentalManager/JRental-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JRentalManager/JRental-Prefix.pch";
 				INFOPLIST_FILE = JRentalManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
