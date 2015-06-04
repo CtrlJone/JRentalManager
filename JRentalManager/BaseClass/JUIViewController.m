@@ -48,7 +48,7 @@
     {
         image = [UIImage imageNamed:@"bgCommon"];
     }
-    _bgImage.image = [image strokeImage];
+    _bgImage.image = image;
     
 }
 

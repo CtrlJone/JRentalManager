@@ -22,6 +22,7 @@
 		FE24A3651ACB838E00A79647 /* JRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE24A3641ACB838E00A79647 /* JRootViewController.m */; };
 		FE3680C21ACBA88D00292A67 /* JNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3680C11ACBA88D00292A67 /* JNavigationController.m */; };
 		FE46A0001B1EE8A10096C084 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE469FFF1B1EE8A10096C084 /* opencv2.framework */; };
+		FE809ABB1B20490900588586 /* UITableView+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE809ABA1B20490900588586 /* UITableView+category.m */; };
 		FE9DB9A41B16F7A7006466D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9DB9A31B16F7A6006466D3 /* Main.storyboard */; };
 		FEC028501AD376330093CCD7 /* JShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0284E1AD376330093CCD7 /* JShowViewController.m */; };
 		FEC028511AD376330093CCD7 /* JShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC0284F1AD376330093CCD7 /* JShowViewController.xib */; };
@@ -78,6 +79,8 @@
 		FE469FFF1B1EE8A10096C084 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		FE71D45D1B0599A100923F68 /* JRental-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JRental-Prefix.pch"; sourceTree = "<group>"; };
 		FE71D4601B059AA900923F68 /* MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
+		FE809AB91B20490900588586 /* UITableView+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+category.h"; sourceTree = "<group>"; };
+		FE809ABA1B20490900588586 /* UITableView+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+category.m"; sourceTree = "<group>"; };
 		FE9DB9A31B16F7A6006466D3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FEC0284D1AD376330093CCD7 /* JShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JShowViewController.h; sourceTree = "<group>"; };
 		FEC0284E1AD376330093CCD7 /* JShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JShowViewController.m; sourceTree = "<group>"; };
@@ -235,6 +238,8 @@
 				FE2265251B07833E00FA1BC5 /* UIColor+category.m */,
 				FE2265271B07931000FA1BC5 /* UITableViewCell+category.h */,
 				FE2265281B07931000FA1BC5 /* UITableViewCell+category.m */,
+				FE809AB91B20490900588586 /* UITableView+category.h */,
+				FE809ABA1B20490900588586 /* UITableView+category.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -463,6 +468,7 @@
 				FE24A3651ACB838E00A79647 /* JRootViewController.m in Sources */,
 				FE3680C21ACBA88D00292A67 /* JNavigationController.m in Sources */,
 				FE24669E1B05D6F0007C75CE /* UIImage+category.mm in Sources */,
+				FE809ABB1B20490900588586 /* UITableView+category.m in Sources */,
 				FE0F50F61AC8EEDE00938D18 /* main.m in Sources */,
 				FEC028551AD3764E0093CCD7 /* JSettingViewController.m in Sources */,
 				FEEAC97A1AEC9F8C00BB356E /* JCoredataManager.m in Sources */,
