@@ -44,6 +44,7 @@
     [self initSidebar];
     
     [self loadCenterVC:0];
+    
 }
 
 #pragma mark - initSidebar
