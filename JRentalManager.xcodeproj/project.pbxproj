@@ -34,6 +34,7 @@
 		FECC0EA81B185DF800CB8DF3 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = FECC0EA61B185DF800CB8DF3 /* Room.m */; };
 		FEEAC97A1AEC9F8C00BB356E /* JCoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEAC9791AEC9F8C00BB356E /* JCoredataManager.m */; };
 		FEEAC98B1AECA72800BB356E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEEAC98D1AECA72800BB356E /* Localizable.strings */; };
+		FEFA6B8C1B355E2A0086C0A1 /* NSTimer+JBlocksSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFA6B8B1B355E2A0086C0A1 /* NSTimer+JBlocksSupport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,8 @@
 		FEEAC9791AEC9F8C00BB356E /* JCoredataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCoredataManager.m; sourceTree = "<group>"; };
 		FEEAC98F1AECA73900BB356E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FEEAC9901AECA74900BB356E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FEFA6B8A1B355E2A0086C0A1 /* NSTimer+JBlocksSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+JBlocksSupport.h"; sourceTree = "<group>"; };
+		FEFA6B8B1B355E2A0086C0A1 /* NSTimer+JBlocksSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+JBlocksSupport.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +233,8 @@
 		FE2466961B05AD9C007C75CE /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FEFA6B8A1B355E2A0086C0A1 /* NSTimer+JBlocksSupport.h */,
+				FEFA6B8B1B355E2A0086C0A1 /* NSTimer+JBlocksSupport.m */,
 				FE2466971B05ADAD007C75CE /* UIView+category.h */,
 				FE2466981B05ADAD007C75CE /* UIView+category.m */,
 				FE24669C1B05D6F0007C75CE /* UIImage+category.h */,
@@ -470,6 +475,7 @@
 				FE24669E1B05D6F0007C75CE /* UIImage+category.mm in Sources */,
 				FE809ABB1B20490900588586 /* UITableView+category.m in Sources */,
 				FE0F50F61AC8EEDE00938D18 /* main.m in Sources */,
+				FEFA6B8C1B355E2A0086C0A1 /* NSTimer+JBlocksSupport.m in Sources */,
 				FEC028551AD3764E0093CCD7 /* JSettingViewController.m in Sources */,
 				FEEAC97A1AEC9F8C00BB356E /* JCoredataManager.m in Sources */,
 				FECC0EA71B185DF800CB8DF3 /* Person.m in Sources */,
