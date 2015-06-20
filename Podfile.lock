@@ -24,6 +24,7 @@ PODS:
   - DACircularProgress (2.2.0)
   - EaseMobSDK (2.1.5)
   - MBProgressHUD (0.9.1)
+  - MJExtension (2.3.6)
   - MWPhotoBrowser (1.4.1):
     - DACircularProgress
     - MBProgressHUD (~> 0.8)
@@ -38,6 +39,7 @@ DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - Colours (~> 5.6.1)
   - EaseMobSDK (from `https://github.com/easemob/sdk-ios-cocoapods.git`)
+  - MJExtension (= 2.3.6)
   - MWPhotoBrowser
 
 EXTERNAL SOURCES:
@@ -55,8 +57,9 @@ SPEC CHECKSUMS:
   DACircularProgress: 0f92b77239d5f3c612fc66185e2998391ac8e054
   EaseMobSDK: 7fa8a57a336b01d9cea71de831c5c9a1cb2acf00
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJExtension: eb9d381740563b520fbabdfa6caf92d666314467
   MWPhotoBrowser: 2531e682860d62b8a7ba8659de02eb9040e431e5
   PSTCollectionView: 6749df92885353521f55279a7ce2b293762e2be4
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
 
-COCOAPODS: 0.36.1
+COCOAPODS: 0.37.1
