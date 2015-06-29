@@ -8,7 +8,7 @@
 
 #import "JRootViewController.h"
 #import "RNFrostedSidebar.h"
-//#import <Colours.h>
+#import <Colours.h>
 
 #import "JShowViewController.h"
 #import "JSettingViewController.h"
@@ -51,7 +51,7 @@
 - (void) initSidebar
 {
     NSArray *images = @[[UIImage imageNamed:@"burger"],[UIImage imageNamed:@"set"]];
-    NSArray *colors = @[[UIColor grayColor],[UIColor redColor]];
+    NSArray *colors = @[[UIColor pinkColor],[UIColor paleRoseColor]];
     
     _sidebar = [[RNFrostedSidebar alloc] initWithImages:images selectedIndices:[NSMutableIndexSet indexSetWithIndex:0] borderColors:colors];
     _sidebar.isSingleSelect = YES;

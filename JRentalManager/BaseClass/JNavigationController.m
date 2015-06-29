@@ -7,7 +7,7 @@
 //
 
 #import "JNavigationController.h"
-//#import <Colours.h>
+#import <Colours.h>
 #import "RNFrostedSidebar.h"
 
 #import "JShowViewController.h"
@@ -29,9 +29,9 @@
 #pragma mark - initNavigationBar
 - (void) initNavigationBar
 {
-//    [self.navigationBar setTintColor:[UIColor raspberryColor]];
+    [self.navigationBar setTintColor:[UIColor raspberryColor]];
     [self.navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithWhite:1 alpha:0.2]] forBarMetrics:UIBarMetricsDefault];
-//    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor black25PercentColor],NSFontAttributeName: [UIFont systemFontOfSize:16]}];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor black25PercentColor],NSFontAttributeName: [UIFont systemFontOfSize:16]}];
 }
 
 #pragma mark - popViewController
