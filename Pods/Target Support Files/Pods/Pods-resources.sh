@@ -58,11 +58,9 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "EaseMobSDK/EaseMobSDK/resources/EaseMob.bundle"
   install_resource "MWPhotoBrowser/MWPhotoBrowser/MWPhotoBrowser.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "EaseMobSDK/EaseMobSDK/resources/EaseMob.bundle"
   install_resource "MWPhotoBrowser/MWPhotoBrowser/MWPhotoBrowser.bundle"
 fi
 

@@ -1,28 +1,27 @@
 PODS:
-  - AFNetworking (2.5.2):
-    - AFNetworking/NSURLConnection (= 2.5.2)
-    - AFNetworking/NSURLSession (= 2.5.2)
-    - AFNetworking/Reachability (= 2.5.2)
-    - AFNetworking/Security (= 2.5.2)
-    - AFNetworking/Serialization (= 2.5.2)
-    - AFNetworking/UIKit (= 2.5.2)
-  - AFNetworking/NSURLConnection (2.5.2):
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.5.2):
+  - AFNetworking/NSURLSession (2.5.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.5.2)
-  - AFNetworking/Security (2.5.2)
-  - AFNetworking/Serialization (2.5.2)
-  - AFNetworking/UIKit (2.5.2):
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - Colours (5.6.1)
-  - DACircularProgress (2.2.0)
-  - EaseMobSDK (2.1.5)
+  - Colours (5.6.2)
+  - DACircularProgress (2.3.1)
   - MBProgressHUD (0.9.1)
   - MJExtension (2.3.6)
   - MWPhotoBrowser (1.4.1):
@@ -38,24 +37,13 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - Colours (~> 5.6.1)
-  - EaseMobSDK (from `https://github.com/easemob/sdk-ios-cocoapods.git`)
   - MJExtension (= 2.3.6)
   - MWPhotoBrowser
 
-EXTERNAL SOURCES:
-  EaseMobSDK:
-    :git: https://github.com/easemob/sdk-ios-cocoapods.git
-
-CHECKOUT OPTIONS:
-  EaseMobSDK:
-    :commit: f8c2e95d7f3755ae7c8d95f344e2a4441c2a4a68
-    :git: https://github.com/easemob/sdk-ios-cocoapods.git
-
 SPEC CHECKSUMS:
-  AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
-  Colours: cad6964a7c178253356403d206eef600a3dc59c8
-  DACircularProgress: 0f92b77239d5f3c612fc66185e2998391ac8e054
-  EaseMobSDK: 7fa8a57a336b01d9cea71de831c5c9a1cb2acf00
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Colours: 0afd4c3429656880fd4cff350ca3bf0ab86ca348
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   MJExtension: eb9d381740563b520fbabdfa6caf92d666314467
   MWPhotoBrowser: 2531e682860d62b8a7ba8659de02eb9040e431e5

@@ -5,13 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BA0F98F6-3E91-4DAB-BE74-A0C23834CC4E</string>
+	<string>EF77CF91-E652-46D5-935E-DD27FBC7A936</string>
 	<key>IDESourceControlProjectName</key>
 	<string>JRentalManager</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>CE6037A160851A3CB70398D3DF1C76C670D117C7</key>
-		<string>https://github.com/nizenyang/JRentalManager.git</string>
+		<string>github.com:nizenyang/JRentalManager.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>JRentalManager.xcworkspace</string>
@@ -21,7 +21,7 @@
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/nizenyang/JRentalManager.git</string>
+	<string>github.com:nizenyang/JRentalManager.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
