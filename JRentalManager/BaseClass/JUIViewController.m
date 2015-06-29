@@ -20,8 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.edgesForExtendedLayout = UIRectEdgeNone;//四周边缘向四周不延伸(默认是延伸)
     _bgImage = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, JSCREEN_WIDTH, JSCREEN_HEIGHT)];
-    
 }
 
 #pragma mark - initBaritem
@@ -41,12 +41,15 @@
 - (void) setbgImageWithName:(NSString *)ImageName
 {
     [self.view insertSubview:_bgImage atIndex:0];
+    UIImage *image = nil;
     if (ImageName) {
-        _bgImage.image = [UIImage imageNamed:ImageName];
+        image = [UIImage imageNamed:ImageName];
     }else
     {
-        _bgImage.image = [UIImage imageNamed:@"bgCommon"];
+        image = [UIImage imageNamed:@"bgCommon"];
     }
+    _bgImage.image = image;
+    
 }
 
 - (void)didReceiveMemoryWarning {

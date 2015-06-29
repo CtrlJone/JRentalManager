@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		008DB2451EC443F9A9B031F7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED20380E616F2056D0727B8D /* libPods.a */; };
+		7D89C554E7617040D93EBD1D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E43AF60416CB335DE90E5DDA /* libPods.a */; };
 		FE0F50F61AC8EEDE00938D18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0F50F51AC8EEDE00938D18 /* main.m */; };
 		FE0F50F91AC8EEDE00938D18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0F50F81AC8EEDE00938D18 /* AppDelegate.m */; };
 		FE0F50FB1AC8EEDE00938D18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0F50FA1AC8EEDE00938D18 /* Images.xcassets */; };
@@ -15,20 +15,26 @@
 		FE0F51171AC8F9B700938D18 /* JUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0F51161AC8F9B700938D18 /* JUIViewController.m */; };
 		FE2265261B07833E00FA1BC5 /* UIColor+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2265251B07833E00FA1BC5 /* UIColor+category.m */; };
 		FE2265291B07931000FA1BC5 /* UITableViewCell+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2265281B07931000FA1BC5 /* UITableViewCell+category.m */; };
+		FE22652D1B08592800FA1BC5 /* JShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE22652B1B08592800FA1BC5 /* JShowCell.m */; };
+		FE22652E1B08592800FA1BC5 /* JShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE22652C1B08592800FA1BC5 /* JShowCell.xib */; };
 		FE2466991B05ADAD007C75CE /* UIView+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2466981B05ADAD007C75CE /* UIView+category.m */; };
-		FE24669B1B05BD81007C75CE /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE24669A1B05BD81007C75CE /* Reveal.framework */; };
 		FE24669E1B05D6F0007C75CE /* UIImage+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE24669D1B05D6F0007C75CE /* UIImage+category.m */; };
 		FE24A3651ACB838E00A79647 /* JRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE24A3641ACB838E00A79647 /* JRootViewController.m */; };
 		FE3680C21ACBA88D00292A67 /* JNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3680C11ACBA88D00292A67 /* JNavigationController.m */; };
+		FE59784E1B4024FC00D1B231 /* JNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE59784D1B4024FC00D1B231 /* JNetManager.m */; };
+		FE809ABB1B20490900588586 /* UITableView+category.m in Sources */ = {isa = PBXBuildFile; fileRef = FE809ABA1B20490900588586 /* UITableView+category.m */; };
+		FE9DB9A41B16F7A7006466D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9DB9A31B16F7A6006466D3 /* Main.storyboard */; };
 		FEC028501AD376330093CCD7 /* JShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0284E1AD376330093CCD7 /* JShowViewController.m */; };
 		FEC028511AD376330093CCD7 /* JShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC0284F1AD376330093CCD7 /* JShowViewController.xib */; };
 		FEC028551AD3764E0093CCD7 /* JSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC028531AD3764E0093CCD7 /* JSettingViewController.m */; };
 		FEC028561AD3764E0093CCD7 /* JSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC028541AD3764E0093CCD7 /* JSettingViewController.xib */; };
 		FEC028601AD396350093CCD7 /* RNFrostedSidebar.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0285F1AD396350093CCD7 /* RNFrostedSidebar.m */; };
 		FEC0286A1AD4BC2D0093CCD7 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEC028681AD4BC2D0093CCD7 /* DataModel.xcdatamodeld */; };
-		FEC028701AD4BEB60093CCD7 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC0286F1AD4BEB60093CCD7 /* Room.m */; };
+		FECC0EA71B185DF800CB8DF3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FECC0EA41B185DF800CB8DF3 /* Person.m */; };
+		FECC0EA81B185DF800CB8DF3 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = FECC0EA61B185DF800CB8DF3 /* Room.m */; };
 		FEEAC97A1AEC9F8C00BB356E /* JCoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEAC9791AEC9F8C00BB356E /* JCoredataManager.m */; };
 		FEEAC98B1AECA72800BB356E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEEAC98D1AECA72800BB356E /* Localizable.strings */; };
+		FEFA6B8C1B355E2A0086C0A1 /* NSTimer+JBlocksSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFA6B8B1B355E2A0086C0A1 /* NSTimer+JBlocksSupport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F9E74E7CD340A879D3F34CF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		8CAAB934C21100B72FF15298 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		ED20380E616F2056D0727B8D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDF7D155F078911FBC173C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BA4AC2237435FF873C331B1C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E43AF60416CB335DE90E5DDA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0F50F01AC8EEDE00938D18 /* JRentalManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRentalManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0F50F41AC8EEDE00938D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE0F50F51AC8EEDE00938D18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,17 +66,25 @@
 		FE2265251B07833E00FA1BC5 /* UIColor+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+category.m"; sourceTree = "<group>"; };
 		FE2265271B07931000FA1BC5 /* UITableViewCell+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+category.h"; sourceTree = "<group>"; };
 		FE2265281B07931000FA1BC5 /* UITableViewCell+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+category.m"; sourceTree = "<group>"; };
+		FE22652A1B08592800FA1BC5 /* JShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JShowCell.h; sourceTree = "<group>"; };
+		FE22652B1B08592800FA1BC5 /* JShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JShowCell.m; sourceTree = "<group>"; };
+		FE22652C1B08592800FA1BC5 /* JShowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JShowCell.xib; sourceTree = "<group>"; };
 		FE2466971B05ADAD007C75CE /* UIView+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+category.h"; sourceTree = "<group>"; };
 		FE2466981B05ADAD007C75CE /* UIView+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+category.m"; sourceTree = "<group>"; };
-		FE24669A1B05BD81007C75CE /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reveal.framework; path = "../../../../Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/Reveal.framework"; sourceTree = "<group>"; };
 		FE24669C1B05D6F0007C75CE /* UIImage+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+category.h"; sourceTree = "<group>"; };
 		FE24669D1B05D6F0007C75CE /* UIImage+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+category.m"; sourceTree = "<group>"; };
 		FE24A3631ACB838E00A79647 /* JRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRootViewController.h; sourceTree = "<group>"; };
 		FE24A3641ACB838E00A79647 /* JRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRootViewController.m; sourceTree = "<group>"; };
 		FE3680C01ACBA88D00292A67 /* JNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNavigationController.h; sourceTree = "<group>"; };
 		FE3680C11ACBA88D00292A67 /* JNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNavigationController.m; sourceTree = "<group>"; };
+		FE469FFF1B1EE8A10096C084 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		FE59784C1B4024FC00D1B231 /* JNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNetManager.h; sourceTree = "<group>"; };
+		FE59784D1B4024FC00D1B231 /* JNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNetManager.m; sourceTree = "<group>"; };
 		FE71D45D1B0599A100923F68 /* JRental-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JRental-Prefix.pch"; sourceTree = "<group>"; };
 		FE71D4601B059AA900923F68 /* MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
+		FE809AB91B20490900588586 /* UITableView+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+category.h"; sourceTree = "<group>"; };
+		FE809ABA1B20490900588586 /* UITableView+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+category.m"; sourceTree = "<group>"; };
+		FE9DB9A31B16F7A6006466D3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FEC0284D1AD376330093CCD7 /* JShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JShowViewController.h; sourceTree = "<group>"; };
 		FEC0284E1AD376330093CCD7 /* JShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JShowViewController.m; sourceTree = "<group>"; };
 		FEC0284F1AD376330093CCD7 /* JShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JShowViewController.xib; sourceTree = "<group>"; };
@@ -80,12 +94,16 @@
 		FEC0285E1AD396350093CCD7 /* RNFrostedSidebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFrostedSidebar.h; sourceTree = "<group>"; };
 		FEC0285F1AD396350093CCD7 /* RNFrostedSidebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFrostedSidebar.m; sourceTree = "<group>"; };
 		FEC028691AD4BC2D0093CCD7 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
-		FEC0286E1AD4BEB60093CCD7 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
-		FEC0286F1AD4BEB60093CCD7 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		FECC0EA31B185DF800CB8DF3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FECC0EA41B185DF800CB8DF3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FECC0EA51B185DF800CB8DF3 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		FECC0EA61B185DF800CB8DF3 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
 		FEEAC9781AEC9F8C00BB356E /* JCoredataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCoredataManager.h; sourceTree = "<group>"; };
 		FEEAC9791AEC9F8C00BB356E /* JCoredataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCoredataManager.m; sourceTree = "<group>"; };
 		FEEAC98F1AECA73900BB356E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FEEAC9901AECA74900BB356E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FEFA6B8A1B355E2A0086C0A1 /* NSTimer+JBlocksSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+JBlocksSupport.h"; sourceTree = "<group>"; };
+		FEFA6B8B1B355E2A0086C0A1 /* NSTimer+JBlocksSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+JBlocksSupport.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				008DB2451EC443F9A9B031F7 /* libPods.a in Frameworks */,
-				FE24669B1B05BD81007C75CE /* Reveal.framework in Frameworks */,
+				7D89C554E7617040D93EBD1D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,32 +125,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06DCD441A8DA2BF7C726F932 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EDF7D155F078911FBC173C0 /* Pods.debug.xcconfig */,
+				BA4AC2237435FF873C331B1C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D1C3B0D662E48651DD21DD21 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ED20380E616F2056D0727B8D /* libPods.a */,
+				FE469FFF1B1EE8A10096C084 /* opencv2.framework */,
+				E43AF60416CB335DE90E5DDA /* libPods.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E7FE4C9A87AA61536E55E5A9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8CAAB934C21100B72FF15298 /* Pods.debug.xcconfig */,
-				3F9E74E7CD340A879D3F34CF /* Pods.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		FE0F50E71AC8EEDD00938D18 = {
 			isa = PBXGroup;
 			children = (
-				FE24669A1B05BD81007C75CE /* Reveal.framework */,
 				FE0F50F21AC8EEDE00938D18 /* JRentalManager */,
 				FE0F51061AC8EEDE00938D18 /* JRentalManagerTests */,
 				FE0F50F11AC8EEDE00938D18 /* Products */,
-				E7FE4C9A87AA61536E55E5A9 /* Pods */,
 				D1C3B0D662E48651DD21DD21 /* Frameworks */,
+				06DCD441A8DA2BF7C726F932 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +168,7 @@
 			children = (
 				FE0F50F71AC8EEDE00938D18 /* AppDelegate.h */,
 				FE0F50F81AC8EEDE00938D18 /* AppDelegate.m */,
+				FE9DB9A31B16F7A6006466D3 /* Main.storyboard */,
 				FE0F51141AC8F9A100938D18 /* BaseClass */,
 				FE0F51181AC8FA4A00938D18 /* JViewClass */,
 				FEC028571AD395AA0093CCD7 /* Vendor */,
@@ -158,6 +176,7 @@
 				FE0F50FA1AC8EEDE00938D18 /* Images.xcassets */,
 				FE2466961B05AD9C007C75CE /* Category */,
 				FE71D45F1B059A6600923F68 /* Configuration */,
+				FE59784B1B4024DB00D1B231 /* NetManager */,
 				FE0F50F31AC8EEDE00938D18 /* Supporting Files */,
 			);
 			path = JRentalManager;
@@ -216,6 +235,8 @@
 		FE2466961B05AD9C007C75CE /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FEFA6B8A1B355E2A0086C0A1 /* NSTimer+JBlocksSupport.h */,
+				FEFA6B8B1B355E2A0086C0A1 /* NSTimer+JBlocksSupport.m */,
 				FE2466971B05ADAD007C75CE /* UIView+category.h */,
 				FE2466981B05ADAD007C75CE /* UIView+category.m */,
 				FE24669C1B05D6F0007C75CE /* UIImage+category.h */,
@@ -224,13 +245,27 @@
 				FE2265251B07833E00FA1BC5 /* UIColor+category.m */,
 				FE2265271B07931000FA1BC5 /* UITableViewCell+category.h */,
 				FE2265281B07931000FA1BC5 /* UITableViewCell+category.m */,
+				FE809AB91B20490900588586 /* UITableView+category.h */,
+				FE809ABA1B20490900588586 /* UITableView+category.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		FE59784B1B4024DB00D1B231 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				FE59784C1B4024FC00D1B231 /* JNetManager.h */,
+				FE59784D1B4024FC00D1B231 /* JNetManager.m */,
+			);
+			path = NetManager;
 			sourceTree = "<group>";
 		};
 		FE67F2B71B007F9A006B6251 /* JShowCell */ = {
 			isa = PBXGroup;
 			children = (
+				FE22652A1B08592800FA1BC5 /* JShowCell.h */,
+				FE22652B1B08592800FA1BC5 /* JShowCell.m */,
+				FE22652C1B08592800FA1BC5 /* JShowCell.xib */,
 			);
 			path = JShowCell;
 			sourceTree = "<group>";
@@ -292,9 +327,11 @@
 		FEC028671AD4BBE30093CCD7 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
+				FECC0EA31B185DF800CB8DF3 /* Person.h */,
+				FECC0EA41B185DF800CB8DF3 /* Person.m */,
+				FECC0EA51B185DF800CB8DF3 /* Room.h */,
+				FECC0EA61B185DF800CB8DF3 /* Room.m */,
 				FEC028681AD4BC2D0093CCD7 /* DataModel.xcdatamodeld */,
-				FEC0286E1AD4BEB60093CCD7 /* Room.h */,
-				FEC0286F1AD4BEB60093CCD7 /* Room.m */,
 				FEEAC9781AEC9F8C00BB356E /* JCoredataManager.h */,
 				FEEAC9791AEC9F8C00BB356E /* JCoredataManager.m */,
 			);
@@ -308,11 +345,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE0F510D1AC8EEDE00938D18 /* Build configuration list for PBXNativeTarget "JRentalManager" */;
 			buildPhases = (
-				21C3F211F918FBD2B8F96362 /* Check Pods Manifest.lock */,
+				AEC71FC3BDFAB2588DD7EA1B /* Check Pods Manifest.lock */,
 				FE0F50EC1AC8EEDE00938D18 /* Sources */,
 				FE0F50ED1AC8EEDE00938D18 /* Frameworks */,
 				FE0F50EE1AC8EEDE00938D18 /* Resources */,
-				581FE25A3DABD5634F5B551A /* Copy Pods Resources */,
+				6C38E798567C67A664924233 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -385,7 +422,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE0F50FB1AC8EEDE00938D18 /* Images.xcassets in Resources */,
+				FE22652E1B08592800FA1BC5 /* JShowCell.xib in Resources */,
 				FEC028511AD376330093CCD7 /* JShowViewController.xib in Resources */,
+				FE9DB9A41B16F7A7006466D3 /* Main.storyboard in Resources */,
 				FEEAC98B1AECA72800BB356E /* Localizable.strings in Resources */,
 				FEC028561AD3764E0093CCD7 /* JSettingViewController.xib in Resources */,
 			);
@@ -401,22 +440,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		21C3F211F918FBD2B8F96362 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		581FE25A3DABD5634F5B551A /* Copy Pods Resources */ = {
+		6C38E798567C67A664924233 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,6 +455,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AEC71FC3BDFAB2588DD7EA1B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -438,20 +477,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEC028701AD4BEB60093CCD7 /* Room.m in Sources */,
+				FE22652D1B08592800FA1BC5 /* JShowCell.m in Sources */,
 				FE2265261B07833E00FA1BC5 /* UIColor+category.m in Sources */,
 				FE2265291B07931000FA1BC5 /* UITableViewCell+category.m in Sources */,
 				FE0F50F91AC8EEDE00938D18 /* AppDelegate.m in Sources */,
 				FE24A3651ACB838E00A79647 /* JRootViewController.m in Sources */,
 				FE3680C21ACBA88D00292A67 /* JNavigationController.m in Sources */,
 				FE24669E1B05D6F0007C75CE /* UIImage+category.m in Sources */,
+				FE809ABB1B20490900588586 /* UITableView+category.m in Sources */,
 				FE0F50F61AC8EEDE00938D18 /* main.m in Sources */,
+				FEFA6B8C1B355E2A0086C0A1 /* NSTimer+JBlocksSupport.m in Sources */,
 				FEC028551AD3764E0093CCD7 /* JSettingViewController.m in Sources */,
 				FEEAC97A1AEC9F8C00BB356E /* JCoredataManager.m in Sources */,
+				FE59784E1B4024FC00D1B231 /* JNetManager.m in Sources */,
+				FECC0EA71B185DF800CB8DF3 /* Person.m in Sources */,
 				FEC028501AD376330093CCD7 /* JShowViewController.m in Sources */,
 				FEC0286A1AD4BC2D0093CCD7 /* DataModel.xcdatamodeld in Sources */,
 				FEC028601AD396350093CCD7 /* RNFrostedSidebar.m in Sources */,
 				FE2466991B05ADAD007C75CE /* UIView+category.m in Sources */,
+				FECC0EA81B185DF800CB8DF3 /* Room.m in Sources */,
 				FE0F51171AC8F9B700938D18 /* JUIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -567,18 +611,25 @@
 		};
 		FE0F510E1AC8EEDE00938D18 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CAAB934C21100B72FF15298 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 2EDF7D155F078911FBC173C0 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
+					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = "/Users/Jone/JoneWorks/JRentalManager/JRentalManager/JRental-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JRentalManager/JRental-Prefix.pch";
 				INFOPLIST_FILE = JRentalManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -586,18 +637,25 @@
 		};
 		FE0F510F1AC8EEDE00938D18 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F9E74E7CD340A879D3F34CF /* Pods.release.xcconfig */;
+			baseConfigurationReference = BA4AC2237435FF873C331B1C /* Pods.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
+					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = "/Users/Jone/JoneWorks/JRentalManager/JRentalManager/JRental-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JRentalManager/JRental-Prefix.pch";
 				INFOPLIST_FILE = JRentalManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

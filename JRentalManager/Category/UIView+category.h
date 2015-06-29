@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (category)
-
+/**
+ *  屏幕截图
+ *
+ *  @return 截图
+ */
 - (UIImage *)screenshot;
 
 @end

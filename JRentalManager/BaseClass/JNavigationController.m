@@ -29,8 +29,8 @@
 #pragma mark - initNavigationBar
 - (void) initNavigationBar
 {
+    [self.navigationBar setTintColor:[UIColor raspberryColor]];
     [self.navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithWhite:1 alpha:0.2]] forBarMetrics:UIBarMetricsDefault];
-    self.navigationBar.translucent = YES;
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor black25PercentColor],NSFontAttributeName: [UIFont systemFontOfSize:16]}];
 }
 

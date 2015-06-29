@@ -7,8 +7,11 @@
 //
 
 #import "JShowViewController.h"
+#import "JShowCell.h"
 
-@interface JShowViewController ()
+@interface JShowViewController ()<UITableViewDataSource,UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *j_tableView;
 
 @end
 
@@ -19,7 +22,36 @@
     // Do any additional setup after loading the view from its nib.
     self.title = NSLocalizedString(@"Show.title.show", nil);
     
+    [self registerTable];
+}
+
+-(void) registerTable
+{
+    [_j_tableView registerNIbforCellWithIdentifier:JIdentifier(JShowCell)];
+}
+
+#pragma mark - UITableViewDelegate
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 100;
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 1;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+   JShowCell *cell = [tableView dequeueReusableCellWithIdentifier:JIdentifier(JShowCell) forIndexPath:indexPath];
     
+    return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 

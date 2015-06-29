@@ -19,12 +19,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EaseMobSDK.xcscheme</key>
+		<key>Pods-MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-MBProgressHUD.xcscheme</key>
+		<key>Pods-MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,47 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1FB5CDFA8C6FABB2D621C99C</key>
+		<key>0E540230E018E37405CAF9EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2D789CB95966B77D4B5E3E76</key>
+		<key>25A77AE34C3E9918B020C48B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>388578CF6F73862A544A5095</key>
+		<key>4805FBC1B4768798669E6D75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>809CFD6FAEEF2C90FAB35D83</key>
+		<key>4C095EE0216FB0292F5AF552</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9404895895F0419CF64D2E2F</key>
+		<key>73B8BC4D0A04709F495BDE07</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9FFE30A111DE2EB9EDDBE599</key>
+		<key>929EC0DB01EAC9A4BFE53BD1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B0DBD8D2B5B8BF19278832B2</key>
+		<key>C72A6837A7C3BE012282988D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CC398A2A2DB8EFDECA5EDF5F</key>
+		<key>D6884559F12D2196BE56BD6B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E95A5FF7563A831D202D2295</key>
+		<key>DEA7716E4B5A17419717CF1D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

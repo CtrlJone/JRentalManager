@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1237D05D-7EB8-450B-AC10-97DC61742EB4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JRentalManager</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CE6037A160851A3CB70398D3DF1C76C670D117C7</key>
+		<string>github.com:nizenyang/JRentalManager.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JRentalManager.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CE6037A160851A3CB70398D3DF1C76C670D117C7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:nizenyang/JRentalManager.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CE6037A160851A3CB70398D3DF1C76C670D117C7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CE6037A160851A3CB70398D3DF1C76C670D117C7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JRentalManager</string>
+		</dict>
+	</array>
+</dict>
+</plist>

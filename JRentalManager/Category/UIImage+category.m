@@ -8,6 +8,8 @@
 
 #import "UIImage+category.h"
 #import <Accelerate/Accelerate.h>
+//#import <opencv2/imgproc/types_c.h>
+//#import <opencv2/imgcodecs/ios.h>
 
 @implementation UIImage (category)
 
@@ -90,13 +92,8 @@
     
     free(pixelBuffer);
     //free(pixelBuffer2);
-    
     CFRelease(inBitmapData);
-    
     CGImageRelease(imageRef);
-    
-    
-    
     return returnImage;
 }
 
@@ -146,6 +143,66 @@
     UIGraphicsEndImageContext();
     
     return newImage;
+}
+
+- (UIImage *)imageWithGlass
+{
+    // 数据源 + 设置
+    CIImage *ciImage = [[CIImage alloc] initWithImage:self];
+    NSDictionary *params = @{
+                             kCIInputImageKey: ciImage,
+                             };
+    
+    // 初始化滤镜
+    CIFilter *filter = [CIFilter filterWithName:@"CIGlassDistortion"
+                            withInputParameters:params];
+    [filter setDefaults];
+    
+    
+    // 输入变形参数
+    if ([filter respondsToSelector:NSSelectorFromString(@"inputTexture")]) {
+        CIImage *ciTextureImage = [[CIImage alloc] initWithImage:[UIImage imageNamed:@"grassdistortion"]];
+        [filter setValue:ciTextureImage forKey:@"inputTexture"];
+    }
+    
+    // 创建上下文 + 输出图片
+    CIContext *context   = [CIContext contextWithOptions:nil];
+    CIImage *outputImage = [filter outputImage];
+    
+    // 获取图片
+    CGImageRef cgImage   = [context createCGImage:outputImage
+                                         fromRect:[outputImage extent]];
+    // 获取图片
+    UIImage *image = [UIImage imageWithCGImage:cgImage];
+    
+    // 释放资源
+    CGImageRelease(cgImage);
+    
+    return image;
+}
+
+- (UIImage *)strokeImage
+{
+//    cv::Mat cvImage;
+//    // Convert UIImage * to cv::Mat
+//    UIImageToMat(self, cvImage);
+//    if (!cvImage.empty()) {
+//        cv::Mat gray;
+//        // Convert the image to grayscale;
+//        cv::cvtColor(cvImage, gray, CV_RGBA2GRAY);
+//        // Apply Gaussian filter to remove small edges
+//        cv::GaussianBlur(gray, gray, cv::Size(5,5), 1.2,1.2);
+//        // Calculate edges with Canny
+//        cv::Mat edges;
+//        cv::Canny(gray, edges, 0, 60);
+//        // Fill image with white color
+//        cvImage.setTo(cv::Scalar::all(255));
+//        // Change color on edges
+//        cvImage.setTo(cv::Scalar(0,128,255,255),edges);
+//        // Convert cv::Mat to UIImage* and show the resulting image
+//        return MatToUIImage(cvImage);
+//    }
+    return nil;
 }
 
 @end

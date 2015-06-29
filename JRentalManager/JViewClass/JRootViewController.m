@@ -26,9 +26,9 @@
 
 @implementation JRootViewController
 
-- (instancetype)init
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
-    self = [super init];
+    self = [super initWithCoder:aDecoder];
     if (self) {
         _navi = [[JNavigationController alloc] init];
         _selectIndex = 0;
@@ -44,13 +44,14 @@
     [self initSidebar];
     
     [self loadCenterVC:0];
+    
 }
 
 #pragma mark - initSidebar
 - (void) initSidebar
 {
     NSArray *images = @[[UIImage imageNamed:@"burger"],[UIImage imageNamed:@"set"]];
-    NSArray *colors = @[[UIColor pinkColor],[UIColor bananaColor]];
+    NSArray *colors = @[[UIColor pinkColor],[UIColor paleRoseColor]];
     
     _sidebar = [[RNFrostedSidebar alloc] initWithImages:images selectedIndices:[NSMutableIndexSet indexSetWithIndex:0] borderColors:colors];
     _sidebar.isSingleSelect = YES;
